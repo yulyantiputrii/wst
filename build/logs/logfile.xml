@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="6" assertions="10" errors="0" warnings="0" failures="0" skipped="0" time="0.157798">
+    <testsuite name="App" tests="6" assertions="10" errors="0" warnings="0" failures="0" skipped="0" time="0.157798">
+      <testsuite name="Tests\Models\PredictionClassTest" file="C:\xampp\htdocs\dw\tests\_support\Models\PredictionClassTest.php" tests="1" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.008473">
+        <testcase name="testPredictionData" class="Tests\Models\PredictionClassTest" classname="Tests.Models.PredictionClassTest" file="C:\xampp\htdocs\dw\tests\_support\Models\PredictionClassTest.php" line="11" assertions="3" time="0.008473"/>
+      </testsuite>
+      <testsuite name="ExampleDatabaseTest" file="C:\xampp\htdocs\dw\tests\database\ExampleDatabaseTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.134148">
+        <testcase name="testModelFindAll" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" file="C:\xampp\htdocs\dw\tests\database\ExampleDatabaseTest.php" line="17" assertions="1" time="0.096907"/>
+        <testcase name="testSoftDeleteLeavesRow" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" file="C:\xampp\htdocs\dw\tests\database\ExampleDatabaseTest.php" line="28" assertions="2" time="0.037241"/>
+      </testsuite>
+      <testsuite name="ExampleSessionTest" file="C:\xampp\htdocs\dw\tests\session\ExampleSessionTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.005669">
+        <testcase name="testSessionSimple" class="ExampleSessionTest" classname="ExampleSessionTest" file="C:\xampp\htdocs\dw\tests\session\ExampleSessionTest.php" line="11" assertions="1" time="0.005669"/>
+      </testsuite>
+      <testsuite name="HealthTest" file="C:\xampp\htdocs\dw\tests\unit\HealthTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.009508">
+        <testcase name="testIsDefinedAppPath" class="HealthTest" classname="HealthTest" file="C:\xampp\htdocs\dw\tests\unit\HealthTest.php" line="13" assertions="1" time="0.003959"/>
+        <testcase name="testBaseUrlHasBeenSet" class="HealthTest" classname="HealthTest" file="C:\xampp\htdocs\dw\tests\unit\HealthTest.php" line="18" assertions="2" time="0.005550"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

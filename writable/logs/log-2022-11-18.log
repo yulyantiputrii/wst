@@ -1,0 +1,60 @@
+ERROR - 2022-11-18 06:09:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 1 in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT nama_pro...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nama_pro...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nama_pro...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Models\M_Rating.php(26): CodeIgniter\Database\BaseConnection->query('SELECT nama_pro...')
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Controllers\Home.php(21): App\Models\M_Rating->hitungRating()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-11-18 06:09:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating FROM rating INNER JOIN produk WHERE rating.id_produk = produk.id_produk GROUP BY rating.id_produk LIMIT 3 DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating FROM rating INNER JOIN produk WHERE rating.id_produk = produk.id_produk GROUP BY rating.id_produk LIMIT 3 DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating FROM rating INNER JOIN produk WHERE rating.id_produk = produk.id_produk GROUP BY rating.id_produk LIMIT 3 DESC')
+ 4 APPPATH\Models\M_Rating.php(26): CodeIgniter\Database\BaseConnection->query('SELECT nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating FROM rating INNER JOIN produk WHERE rating.id_produk = produk.id_produk GROUP BY rating.id_produk LIMIT 3 DESC')
+ 5 APPPATH\Controllers\Home.php(21): App\Models\M_Rating->hitungRating()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 06:15:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY DESC' at line 1 in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT nama_pro...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nama_pro...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nama_pro...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Models\M_Rating.php(26): CodeIgniter\Database\BaseConnection->query('SELECT nama_pro...')
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Controllers\Home.php(21): App\Models\M_Rating->hitungRating()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-11-18 06:15:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY DESC' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating FROM rating INNER JOIN produk WHERE rating.id_produk = produk.id_produk GROUP BY rating.id_produk LIMIT 3 ORDER BY DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating FROM rating INNER JOIN produk WHERE rating.id_produk = produk.id_produk GROUP BY rating.id_produk LIMIT 3 ORDER BY DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating FROM rating INNER JOIN produk WHERE rating.id_produk = produk.id_produk GROUP BY rating.id_produk LIMIT 3 ORDER BY DESC')
+ 4 APPPATH\Models\M_Rating.php(26): CodeIgniter\Database\BaseConnection->query('SELECT nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating FROM rating INNER JOIN produk WHERE rating.id_produk = produk.id_produk GROUP BY rating.id_produk LIMIT 3 ORDER BY DESC')
+ 5 APPPATH\Controllers\Home.php(21): App\Models\M_Rating->hitungRating()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:42:59 --> Invalid file: user/homeedit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/homeedit.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/homeedit', [], true)
+ 3 APPPATH\Controllers\Home.php(46): view('user/homeedit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->homeedit()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

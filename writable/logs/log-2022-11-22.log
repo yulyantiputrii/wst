@@ -1,0 +1,357 @@
+CRITICAL - 2022-11-22 00:17:24 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Collaborative2.php on line 40.
+ 1 APPPATH\Controllers\Collaborative2.php(28): App\Controllers\Collaborative2->users()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 00:23:11 --> Undefined property: mysqli::$id
+in APPPATH\Controllers\Collaborative2.php on line 47.
+ 1 APPPATH\Controllers\Collaborative2.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$id', 'APPPATH\\Controllers\\Collaborative2.php', 47)
+ 2 APPPATH\Controllers\Collaborative2.php(28): App\Controllers\Collaborative2->users()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 00:25:52 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Collaborative2.php on line 42.
+ 1 APPPATH\Controllers\Collaborative2.php(28): App\Controllers\Collaborative2->users()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 00:39:04 --> syntax error, unexpected token ";", expecting variable
+in APPPATH\Controllers\Collaborative2.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Collaborative2.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Collaborative2')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Collaborative2')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Collaborative2', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-22 00:39:12 --> mysqli_sql_exception: Table 'horizon.porduk' doesn't exist in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_prod...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_prod...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_prod...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_prod...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Collaborative2.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Collaborative2.php(32): App\Controllers\Collaborative2->products()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#11 {main}
+CRITICAL - 2022-11-22 00:39:12 --> Table 'horizon.porduk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_produk`, `nama_produk`
+FROM `porduk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_produk`, `nama_produk`
+FROM `porduk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_produk`, `nama_produk`
+FROM `porduk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_produk`, `nama_produk`
+FROM `porduk`', [], false)
+ 5 APPPATH\Controllers\Collaborative2.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Collaborative2.php(32): App\Controllers\Collaborative2->products()
+ 7 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 00:39:24 --> Undefined array key "id"
+in APPPATH\Controllers\Collaborative2.php on line 66.
+ 1 APPPATH\Controllers\Collaborative2.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Collaborative2.php', 66)
+ 2 APPPATH\Controllers\Collaborative2.php(32): App\Controllers\Collaborative2->products()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 00:40:13 --> Undefined variable $product
+in APPPATH\Controllers\Collaborative2.php on line 72.
+ 1 APPPATH\Controllers\Collaborative2.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'APPPATH\\Controllers\\Collaborative2.php', 72)
+ 2 APPPATH\Controllers\Collaborative2.php(32): App\Controllers\Collaborative2->products()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:07:38 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Collaborative2.php on line 116.
+ 1 APPPATH\Controllers\Collaborative2.php(34): App\Controllers\Collaborative2->ratingRaw()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:12:18 --> Undefined array key 5
+in APPPATH\Controllers\Collaborative2.php on line 110.
+ 1 APPPATH\Controllers\Collaborative2.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 5', 'APPPATH\\Controllers\\Collaborative2.php', 110)
+ 2 APPPATH\Controllers\Collaborative2.php(34): App\Controllers\Collaborative2->ratingRaw()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:12:26 --> Undefined array key 5
+in APPPATH\Controllers\Collaborative2.php on line 110.
+ 1 APPPATH\Controllers\Collaborative2.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 5', 'APPPATH\\Controllers\\Collaborative2.php', 110)
+ 2 APPPATH\Controllers\Collaborative2.php(34): App\Controllers\Collaborative2->ratingRaw()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:15:35 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\Collaborative2.php on line 124.
+ 1 APPPATH\Controllers\Collaborative2.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Controllers\\Collaborative2.php', 124)
+ 2 APPPATH\Controllers\Collaborative2.php(36): App\Controllers\Collaborative2->ratings()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 07:02:26 --> Attempt to read property "id" on array
+in APPPATH\Controllers\Collaborative2.php on line 102.
+ 1 APPPATH\Controllers\Collaborative2.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Controllers\\Collaborative2.php', 102)
+ 2 APPPATH\Controllers\Collaborative2.php(35): App\Controllers\Collaborative2->ratingRaw()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 07:04:34 --> Unsupported operand types: array - float
+in APPPATH\Controllers\Collaborative2.php on line 130.
+ 1 APPPATH\Controllers\Collaborative2.php(36): App\Controllers\Collaborative2->ratings()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 07:09:53 --> Unsupported operand types: array - int
+in APPPATH\Controllers\Collaborative2.php on line 131.
+ 1 APPPATH\Controllers\Collaborative2.php(36): App\Controllers\Collaborative2->ratings()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 07:10:03 --> Call to undefined method App\Controllers\Collaborative2::ratings()
+in APPPATH\Controllers\Collaborative2.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 07:10:15 --> syntax error, unexpected token ";", expecting variable
+in APPPATH\Controllers\Collaborative2.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Collaborative2.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Collaborative2')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Collaborative2')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Collaborative2', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 07:12:58 --> Undefined array key 5
+in APPPATH\Controllers\Collaborative2.php on line 106.
+ 1 APPPATH\Controllers\Collaborative2.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 5', 'APPPATH\\Controllers\\Collaborative2.php', 106)
+ 2 APPPATH\Controllers\Collaborative2.php(35): App\Controllers\Collaborative2->ratingRaw()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 07:14:14 --> Unsupported operand types: array - int
+in APPPATH\Controllers\Collaborative2.php on line 131.
+ 1 APPPATH\Controllers\Collaborative2.php(36): App\Controllers\Collaborative2->ratings()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 07:14:30 --> Unsupported operand types: array - int
+in APPPATH\Controllers\Collaborative2.php on line 131.
+ 1 APPPATH\Controllers\Collaborative2.php(36): App\Controllers\Collaborative2->ratings()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 07:14:58 --> Undefined array key 6
+in APPPATH\Controllers\Collaborative2.php on line 107.
+ 1 APPPATH\Controllers\Collaborative2.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 6', 'APPPATH\\Controllers\\Collaborative2.php', 107)
+ 2 APPPATH\Controllers\Collaborative2.php(35): App\Controllers\Collaborative2->ratingRaw()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 07:15:18 --> Undefined array key 6
+in APPPATH\Controllers\Collaborative2.php on line 107.
+ 1 APPPATH\Controllers\Collaborative2.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 6', 'APPPATH\\Controllers\\Collaborative2.php', 107)
+ 2 APPPATH\Controllers\Collaborative2.php(35): App\Controllers\Collaborative2->ratingRaw()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 08:18:48 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Collaborative2.php on line 143.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Collaborative2.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Collaborative2')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Collaborative2')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Collaborative2', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 08:19:38 --> Undefined variable $0
+in APPPATH\Controllers\Collaborative2.php on line 143.
+ 1 APPPATH\Controllers\Collaborative2.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $0', 'APPPATH\\Controllers\\Collaborative2.php', 143)
+ 2 APPPATH\Controllers\Collaborative2.php(36): App\Controllers\Collaborative2->ratings()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 08:25:47 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Collaborative2.php on line 141.
+ 1 APPPATH\Controllers\Collaborative2.php(36): App\Controllers\Collaborative2->ratings()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 08:31:47 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\Collaborative2.php on line 164.
+ 1 APPPATH\Controllers\Collaborative2.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Controllers\\Collaborative2.php', 164)
+ 2 APPPATH\Controllers\Collaborative2.php(179): App\Controllers\Collaborative2->similarities()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Collaborative2->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Collaborative2))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 08:33:17 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Collaborative2.php on line 168.
+ 1 APPPATH\Controllers\Collaborative2.php(180): App\Controllers\Collaborative2->similarities()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Collaborative2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Collaborative2))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 08:42:50 --> Too few arguments to function App\Controllers\Collaborative2::similarity(), 0 passed in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Collaborative2.php on line 38 and exactly 2 expected
+in APPPATH\Controllers\Collaborative2.php on line 161.
+ 1 APPPATH\Controllers\Collaborative2.php(38): App\Controllers\Collaborative2->similarity()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 08:43:09 --> Call to undefined method App\Controllers\Collaborative2::similarity()
+in APPPATH\Controllers\Collaborative2.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 08:57:06 --> Call to undefined method App\Controllers\Collaborative2::rating()
+in APPPATH\Controllers\Collaborative2.php on line 197.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Collaborative2->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Collaborative2))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 08:57:46 --> Undefined property: stdClass::$rating_minus_avg
+in APPPATH\Controllers\Collaborative2.php on line 197.
+ 1 APPPATH\Controllers\Collaborative2.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$rating_minus_avg', 'APPPATH\\Controllers\\Collaborative2.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Collaborative2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Collaborative2))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 08:58:15 --> Undefined property: stdClass::$rating_user_item
+in APPPATH\Controllers\Collaborative2.php on line 197.
+ 1 APPPATH\Controllers\Collaborative2.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$rating_user_item', 'APPPATH\\Controllers\\Collaborative2.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Collaborative2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Collaborative2))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 08:59:43 --> Undefined property: App\Controllers\Collaborative2::$rating_user_item
+in APPPATH\Controllers\Collaborative2.php on line 198.
+ 1 APPPATH\Controllers\Collaborative2.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Collaborative2::$rating_user_item', 'APPPATH\\Controllers\\Collaborative2.php', 198)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Collaborative2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Collaborative2))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 10:27:20 --> Undefined property: App\Controllers\Collaborative2::$similarities
+in APPPATH\Controllers\Collaborative2.php on line 229.
+ 1 APPPATH\Controllers\Collaborative2.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Collaborative2::$similarities', 'APPPATH\\Controllers\\Collaborative2.php', 229)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Collaborative2->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Collaborative2))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 10:27:53 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\Collaborative2.php on line 215.
+ 1 APPPATH\Controllers\Collaborative2.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'APPPATH\\Controllers\\Collaborative2.php', 215)
+ 2 APPPATH\Controllers\Collaborative2.php(38): App\Controllers\Collaborative2->similarities()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 10:30:26 --> Cannot use a scalar value as an array
+in APPPATH\Controllers\Collaborative2.php on line 176.
+ 1 APPPATH\Controllers\Collaborative2.php(210): App\Controllers\Collaborative2->similarity('6', '6')
+ 2 APPPATH\Controllers\Collaborative2.php(38): App\Controllers\Collaborative2->similarities()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 10:35:20 --> Cannot use a scalar value as an array
+in APPPATH\Controllers\Collaborative2.php on line 179.
+ 1 APPPATH\Controllers\Collaborative2.php(212): App\Controllers\Collaborative2->similarity('6', '6')
+ 2 APPPATH\Controllers\Collaborative2.php(38): App\Controllers\Collaborative2->similarities()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 10:39:02 --> array_sum(): Argument #1 ($array) must be of type array, float given
+in APPPATH\Controllers\Collaborative2.php on line 183.
+ 1 APPPATH\Controllers\Collaborative2.php(183): array_sum(4.840000000000001)
+ 2 APPPATH\Controllers\Collaborative2.php(210): App\Controllers\Collaborative2->similarity('6', '6')
+ 3 APPPATH\Controllers\Collaborative2.php(38): App\Controllers\Collaborative2->similarities()
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 10:46:23 --> Undefined property: stdClass::$similiarity
+in APPPATH\Controllers\Collaborative2.php on line 218.
+ 1 APPPATH\Controllers\Collaborative2.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$similiarity', 'APPPATH\\Controllers\\Collaborative2.php', 218)
+ 2 APPPATH\Controllers\Collaborative2.php(38): App\Controllers\Collaborative2->similarities()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 10:46:29 --> Undefined property: stdClass::$similiarity
+in APPPATH\Controllers\Collaborative2.php on line 218.
+ 1 APPPATH\Controllers\Collaborative2.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$similiarity', 'APPPATH\\Controllers\\Collaborative2.php', 218)
+ 2 APPPATH\Controllers\Collaborative2.php(38): App\Controllers\Collaborative2->similarities()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

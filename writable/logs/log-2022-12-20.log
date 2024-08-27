@@ -1,0 +1,336 @@
+ERROR - 2022-12-20 07:24:26 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_horizon' in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_horizon', 3306, '', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Models\M_User.php(47): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Libraries\Prediction.php(38): App\Models\M_User->getIsRated(NULL)
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\Acer\\D...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_horizon' in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Models\M_User.php(47): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Libraries\Prediction.php(38): App\Models\M_User->getIsRated(NULL)
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\Acer\\D...')
+#13 {main}
+CRITICAL - 2022-12-20 07:24:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_horizon'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `rating`
+WHERE `id` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\M_User.php(47): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Libraries\Prediction.php(38): App\Models\M_User->getIsRated(null)
+ 7 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-20 07:25:50 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_horizon' in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'db_horizon', 3306, '', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Models\M_User.php(47): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Libraries\Prediction.php(38): App\Models\M_User->getIsRated(NULL)
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\Acer\\D...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_horizon' in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Models\M_User.php(47): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Libraries\Prediction.php(38): App\Models\M_User->getIsRated(NULL)
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\Acer\\D...')
+#13 {main}
+CRITICAL - 2022-12-20 07:25:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_horizon'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `rating`
+WHERE `id` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\M_User.php(47): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Libraries\Prediction.php(38): App\Models\M_User->getIsRated(null)
+ 7 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 19:40:28 --> Attempt to read property "id" on null
+in APPPATH\Libraries\Prediction.php on line 38.
+ 1 APPPATH\Libraries\Prediction.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Libraries\\Prediction.php', 38)
+ 2 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 19:44:28 --> Attempt to read property "id" on null
+in APPPATH\Libraries\Prediction.php on line 38.
+ 1 APPPATH\Libraries\Prediction.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Libraries\\Prediction.php', 38)
+ 2 APPPATH\Controllers\Home.php(139): App\Libraries\Prediction->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formula()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-20 20:11:29 --> mysqli_sql_exception: Duplicate entry '4' for key 'PRIMARY' in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\AdminProduk.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\AdminProduk->save()
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProduk))
+#11 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\Acer\\D...')
+#14 {main}
+CRITICAL - 2022-12-20 20:11:29 --> Duplicate entry '4' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `produk` (`id_kategori`, `nama_produk`, `harga`, `deskripsi_produk`, `sampul`, `created_at`, `updated_at`) VALUES (\'4\', \'Trekking Kawah Senaru [2 hari 1 malam]\', \'234000\', \'<p>Mulai dari Senaru, berakhir di Desa Senaru</p>\\r\\n\\r\\n<p>Program trekking menarik bagi mereka yang memiliki waktu singkat, ini memberikan pemandangan Danau Segara Anak yang spektakuler di dalam kawah gunung berapi. Trekking ini tersedia untuk anak-anak minimal 7 tahun. Tur dapat berangkat setiap hari kecuali kondisi cuaca tidak memungkinkan.</p>\\r\\n\\r\\n<hr />\\r\\n<p><strong>Ikhtisar Pendakian:</strong></p>\\r\\n\\r\\n<ul>\\r\\n	<li>Lewati hutan tropis yang megah (pohon besar dan trawberry lokal), jalur bayangan.</li>\\r\\n	<li>Nikmati suasana hutan dengan suara burung, binatang buas (monyet hitam, monyet coklat, dll).</li>\\r\\n	<li>Pemandangan spektakuler dari Gili, desa Senaru dan hutan tropis hijau dari Cemara Lima.</li>\\r\\n	<li>Danau Segara Anak yang unik dan air panas.</li>\\r\\n	<li>Pemandangan menakjubkan dari kawah RIM Senaru di atas pemandangan Segara Anak (Sunset dan Sunrise).</li>\\r\\n</ul>\\r\\n\\r\\n<hr />\\r\\n<p><strong>Notes</strong>:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Program trekking ini tidak cocok untuk trekker pemula.</li>\\r\\n	<li>Diperlukan tingkat kebugaran yang baik dan jalan kaki yang kuat.</li>\\r\\n	<li>Orang dengan penyakit gunung atau fobia ketinggian tidak diperbolehkan mengikuti tur ini.</li>\\r\\n	<li>Tur dapat berangkat setiap hari kecuali kondisi cuaca tidak memungkinkan.</li>\\r\\n</ul>\\r\\n\\r\\n<hr />\\r\\n<p>Day 1:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Makan pagi di perkemahan kami ( Horizon Tour and Travel )</li>\\r\\n	<li>Pendaftaran di RTC ( Rinjani Trekking Center Senaru 601m )</li>\\r\\n	<li>Persiapan trekking pada pukul 07.30 &ndash; 08.00</li>\\r\\n	<li>Berjalan di pemandangan terbuka 30 menit dengan tanaman hijau pohon kopi, Bambu, dll</li>\\r\\n	<li>Lewat jalan kaki 30 menit lagi menuju gerbang hutan hujan tropis, istirahat sejenak 15 menit</li>\\r\\n	<li>Lanjutkan berjalan melalui hutan di mana kita akan dibayangi matahari 3 jam ke POS 2 ( MONTONG SATAS 1.500m ), terlihat Monyet hitam dan pohon besar di jalan setapak.</li>\\r\\n	<li>Istirahat di POS 2, siapkan buah-buahan segar dan minuman ringan oleh Guide dan porter kami</li>\\r\\n	<li>Lanjut ke POS 3 ( MONDOKAN LOLAK 2.000m ) melewati hutan tropis, trawbery lokal ( Juni, Juli, Agustus ), jalan kaki 3 jam, makan siang akan disiapkan di POS 3 ( Buah segar, snack / biskuit dan makan siang )</li>\\r\\n	<li>Setelah 1 jam 30 menit istirahat, lanjut ke Lingkar Kawah Senaru ( 2.641m ) jalan kaki satu jam</li>\\r\\n	<li>Berkemah dan bermalam di kawah RIM Senaru, nikmati matahari</li>\\r\\n</ul>\\r\\n\\r\\n<p>Day 2:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Breakfast and enjoy sunrise by beautiful scenery of Segara Anak Lake</li>\\r\\n	<li>Walk down to Senaru village for 4-5 hours</li>\\r\\n	<li>Will arrive Senaru village approx 13.00 PM</li>\\r\\n	<li>Prepare your luggage, than transfer to your next destination ( Senggigi, Mataram or Bangsal harbor )</li>\\r\\n</ul>\\r\\n\\r\\n<hr />\\r\\n<p>Harga Termasuk:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Ambil dan transfer</li>\\r\\n	<li>Penginapan malam di Senaru</li>\\r\\n	<li>Pemandu trekking Porter</li>\\r\\n	<li>Makanan dan minuman,</li>\\r\\n	<li>Tenda, tenda toilet, kantong tidur, dan kasur</li>\\r\\n	<li>Biaya masuk taman nasional Rp300.000/trekker/trip (Rp150.000/orang/hari)</li>\\r\\n	<li>Pertolongan pertama pada kecelakaan</li>\\r\\n	<li>Asuransi perjalanan masuk</li>\\r\\n	<li>Menjemput Anda pada hari 0 dan mentransfer Anda setelah perjalanan Selesai,</li>\\r\\n	<li>Pemandu Trekking Rinjani</li>\\r\\n	<li>Porter untuk membawa perlengkapan logistik dan trek (tidak termasuk untuk membawa tas pribadi Anda)</li>\\r\\n	<li>Makan full board selama program perjalanan; sarapan, makan siang, makan malam, kopi atau teh, cokelat panas, makanan ringan, buah-buahan segar</li>\\r\\n	<li>Semua peralatan berkemah; tenda berkemah ukuran ganda, kasur, kantong tidur, tenda toilet, kursi berkemah.</li>\\r\\n	<li>Konsumsi air setiap hari dari air minum kemasan yang aman</li>\\r\\n	<li>Biaya masuk</li>\\r\\n	<li>Akomodasi malam di senaru atau Sembalun sebelum perjalanan.</li>\\r\\n</ul>\\r\\n\\r\\n<p><br />\\r\\nHarga Tidak Termasuk:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Head lamp/obor tangan</li>\\r\\n	<li>Paket tas kecil / paket harian</li>\\r\\n	<li>Sepatu trekking</li>\\r\\n	<li>Jaket trekking</li>\\r\\n	<li>Pesawat tiket</li>\\r\\n	<li>Porter tambahan untuk bagasi sendiri (22$/hari)</li>\\r\\n	<li>Celana/celana panjang</li>\\r\\n	<li>Tip untuk guide dan porter</li>\\r\\n</ul>\\r\\n\\r\\n<hr />\\r\\n<p><strong>CATATAN !!</strong><br />\\r\\nKetika Anda memesan perjalanan Anda melalui Horizon Tour and Travel, Anda akan diberikan Pemandu Gunung Berbahasa Inggris dan porter lokal dan sebagian besar kebutuhan berkemah seperti tenda, kantong tidur, kasur, perlengkapan memasak. dll.</p>\\r\\n\\r\\n<p>Namun, pemandu gunung dan porter kami hanya bertugas untuk membawa semua peralatan berkemah (tenda, kantong tidur, matras, dll), peralatan masak dan logistik yang diperlukan selama program (makanan, air, makanan ringan, buah-buahan, minuman ringan, dll) mereka tidak bertanggung jawab untuk membawa barang-barang pribadi Anda.</p>\\r\\n\\r\\n<hr />\\r\\n<p>Silahkan pesan paket tour mu sekarang dengan cara login terlebih dahulu kemudian isi form order yang ada di samping kanan.&nbsp;</p>\\r\\n\\r\\n<p>Jika ada pertanyaan, hubungi kami melalui WhatsApp kami yang berada di pojok kanan bawah.</p>\\r\\n\\r\\n<p>&nbsp;</p>\\r\\n\', \'senaru-crater-rim-1.jpg\', \'2022-12-20 20:11:29\', \'2022-12-20 20:11:29\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `produk` (`id_kategori`, `nama_produk`, `harga`, `deskripsi_produk`, `sampul`, `created_at`, `updated_at`) VALUES (\'4\', \'Trekking Kawah Senaru [2 hari 1 malam]\', \'234000\', \'<p>Mulai dari Senaru, berakhir di Desa Senaru</p>\\r\\n\\r\\n<p>Program trekking menarik bagi mereka yang memiliki waktu singkat, ini memberikan pemandangan Danau Segara Anak yang spektakuler di dalam kawah gunung berapi. Trekking ini tersedia untuk anak-anak minimal 7 tahun. Tur dapat berangkat setiap hari kecuali kondisi cuaca tidak memungkinkan.</p>\\r\\n\\r\\n<hr />\\r\\n<p><strong>Ikhtisar Pendakian:</strong></p>\\r\\n\\r\\n<ul>\\r\\n	<li>Lewati hutan tropis yang megah (pohon besar dan trawberry lokal), jalur bayangan.</li>\\r\\n	<li>Nikmati suasana hutan dengan suara burung, binatang buas (monyet hitam, monyet coklat, dll).</li>\\r\\n	<li>Pemandangan spektakuler dari Gili, desa Senaru dan hutan tropis hijau dari Cemara Lima.</li>\\r\\n	<li>Danau Segara Anak yang unik dan air panas.</li>\\r\\n	<li>Pemandangan menakjubkan dari kawah RIM Senaru di atas pemandangan Segara Anak (Sunset dan Sunrise).</li>\\r\\n</ul>\\r\\n\\r\\n<hr />\\r\\n<p><strong>Notes</strong>:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Program trekking ini tidak cocok untuk trekker pemula.</li>\\r\\n	<li>Diperlukan tingkat kebugaran yang baik dan jalan kaki yang kuat.</li>\\r\\n	<li>Orang dengan penyakit gunung atau fobia ketinggian tidak diperbolehkan mengikuti tur ini.</li>\\r\\n	<li>Tur dapat berangkat setiap hari kecuali kondisi cuaca tidak memungkinkan.</li>\\r\\n</ul>\\r\\n\\r\\n<hr />\\r\\n<p>Day 1:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Makan pagi di perkemahan kami ( Horizon Tour and Travel )</li>\\r\\n	<li>Pendaftaran di RTC ( Rinjani Trekking Center Senaru 601m )</li>\\r\\n	<li>Persiapan trekking pada pukul 07.30 &ndash; 08.00</li>\\r\\n	<li>Berjalan di pemandangan terbuka 30 menit dengan tanaman hijau pohon kopi, Bambu, dll</li>\\r\\n	<li>Lewat jalan kaki 30 menit lagi menuju gerbang hutan hujan tropis, istirahat sejenak 15 menit</li>\\r\\n	<li>Lanjutkan berjalan melalui hutan di mana kita akan dibayangi matahari 3 jam ke POS 2 ( MONTONG SATAS 1.500m ), terlihat Monyet hitam dan pohon besar di jalan setapak.</li>\\r\\n	<li>Istirahat di POS 2, siapkan buah-buahan segar dan minuman ringan oleh Guide dan porter kami</li>\\r\\n	<li>Lanjut ke POS 3 ( MONDOKAN LOLAK 2.000m ) melewati hutan tropis, trawbery lokal ( Juni, Juli, Agustus ), jalan kaki 3 jam, makan siang akan disiapkan di POS 3 ( Buah segar, snack / biskuit dan makan siang )</li>\\r\\n	<li>Setelah 1 jam 30 menit istirahat, lanjut ke Lingkar Kawah Senaru ( 2.641m ) jalan kaki satu jam</li>\\r\\n	<li>Berkemah dan bermalam di kawah RIM Senaru, nikmati matahari</li>\\r\\n</ul>\\r\\n\\r\\n<p>Day 2:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Breakfast and enjoy sunrise by beautiful scenery of Segara Anak Lake</li>\\r\\n	<li>Walk down to Senaru village for 4-5 hours</li>\\r\\n	<li>Will arrive Senaru village approx 13.00 PM</li>\\r\\n	<li>Prepare your luggage, than transfer to your next destination ( Senggigi, Mataram or Bangsal harbor )</li>\\r\\n</ul>\\r\\n\\r\\n<hr />\\r\\n<p>Harga Termasuk:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Ambil dan transfer</li>\\r\\n	<li>Penginapan malam di Senaru</li>\\r\\n	<li>Pemandu trekking Porter</li>\\r\\n	<li>Makanan dan minuman,</li>\\r\\n	<li>Tenda, tenda toilet, kantong tidur, dan kasur</li>\\r\\n	<li>Biaya masuk taman nasional Rp300.000/trekker/trip (Rp150.000/orang/hari)</li>\\r\\n	<li>Pertolongan pertama pada kecelakaan</li>\\r\\n	<li>Asuransi perjalanan masuk</li>\\r\\n	<li>Menjemput Anda pada hari 0 dan mentransfer Anda setelah perjalanan Selesai,</li>\\r\\n	<li>Pemandu Trekking Rinjani</li>\\r\\n	<li>Porter untuk membawa perlengkapan logistik dan trek (tidak termasuk untuk membawa tas pribadi Anda)</li>\\r\\n	<li>Makan full board selama program perjalanan; sarapan, makan siang, makan malam, kopi atau teh, cokelat panas, makanan ringan, buah-buahan segar</li>\\r\\n	<li>Semua peralatan berkemah; tenda berkemah ukuran ganda, kasur, kantong tidur, tenda toilet, kursi berkemah.</li>\\r\\n	<li>Konsumsi air setiap hari dari air minum kemasan yang aman</li>\\r\\n	<li>Biaya masuk</li>\\r\\n	<li>Akomodasi malam di senaru atau Sembalun sebelum perjalanan.</li>\\r\\n</ul>\\r\\n\\r\\n<p><br />\\r\\nHarga Tidak Termasuk:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Head lamp/obor tangan</li>\\r\\n	<li>Paket tas kecil / paket harian</li>\\r\\n	<li>Sepatu trekking</li>\\r\\n	<li>Jaket trekking</li>\\r\\n	<li>Pesawat tiket</li>\\r\\n	<li>Porter tambahan untuk bagasi sendiri (22$/hari)</li>\\r\\n	<li>Celana/celana panjang</li>\\r\\n	<li>Tip untuk guide dan porter</li>\\r\\n</ul>\\r\\n\\r\\n<hr />\\r\\n<p><strong>CATATAN !!</strong><br />\\r\\nKetika Anda memesan perjalanan Anda melalui Horizon Tour and Travel, Anda akan diberikan Pemandu Gunung Berbahasa Inggris dan porter lokal dan sebagian besar kebutuhan berkemah seperti tenda, kantong tidur, kasur, perlengkapan memasak. dll.</p>\\r\\n\\r\\n<p>Namun, pemandu gunung dan porter kami hanya bertugas untuk membawa semua peralatan berkemah (tenda, kantong tidur, matras, dll), peralatan masak dan logistik yang diperlukan selama program (makanan, air, makanan ringan, buah-buahan, minuman ringan, dll) mereka tidak bertanggung jawab untuk membawa barang-barang pribadi Anda.</p>\\r\\n\\r\\n<hr />\\r\\n<p>Silahkan pesan paket tour mu sekarang dengan cara login terlebih dahulu kemudian isi form order yang ada di samping kanan.&nbsp;</p>\\r\\n\\r\\n<p>Jika ada pertanyaan, hubungi kami melalui WhatsApp kami yang berada di pojok kanan bawah.</p>\\r\\n\\r\\n<p>&nbsp;</p>\\r\\n\', \'senaru-crater-rim-1.jpg\', \'2022-12-20 20:11:29\', \'2022-12-20 20:11:29\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `produk` (`id_kategori`, `nama_produk`, `harga`, `deskripsi_produk`, `sampul`, `created_at`, `updated_at`) VALUES (\'4\', \'Trekking Kawah Senaru [2 hari 1 malam]\', \'234000\', \'<p>Mulai dari Senaru, berakhir di Desa Senaru</p>\\r\\n\\r\\n<p>Program trekking menarik bagi mereka yang memiliki waktu singkat, ini memberikan pemandangan Danau Segara Anak yang spektakuler di dalam kawah gunung berapi. Trekking ini tersedia untuk anak-anak minimal 7 tahun. Tur dapat berangkat setiap hari kecuali kondisi cuaca tidak memungkinkan.</p>\\r\\n\\r\\n<hr />\\r\\n<p><strong>Ikhtisar Pendakian:</strong></p>\\r\\n\\r\\n<ul>\\r\\n	<li>Lewati hutan tropis yang megah (pohon besar dan trawberry lokal), jalur bayangan.</li>\\r\\n	<li>Nikmati suasana hutan dengan suara burung, binatang buas (monyet hitam, monyet coklat, dll).</li>\\r\\n	<li>Pemandangan spektakuler dari Gili, desa Senaru dan hutan tropis hijau dari Cemara Lima.</li>\\r\\n	<li>Danau Segara Anak yang unik dan air panas.</li>\\r\\n	<li>Pemandangan menakjubkan dari kawah RIM Senaru di atas pemandangan Segara Anak (Sunset dan Sunrise).</li>\\r\\n</ul>\\r\\n\\r\\n<hr />\\r\\n<p><strong>Notes</strong>:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Program trekking ini tidak cocok untuk trekker pemula.</li>\\r\\n	<li>Diperlukan tingkat kebugaran yang baik dan jalan kaki yang kuat.</li>\\r\\n	<li>Orang dengan penyakit gunung atau fobia ketinggian tidak diperbolehkan mengikuti tur ini.</li>\\r\\n	<li>Tur dapat berangkat setiap hari kecuali kondisi cuaca tidak memungkinkan.</li>\\r\\n</ul>\\r\\n\\r\\n<hr />\\r\\n<p>Day 1:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Makan pagi di perkemahan kami ( Horizon Tour and Travel )</li>\\r\\n	<li>Pendaftaran di RTC ( Rinjani Trekking Center Senaru 601m )</li>\\r\\n	<li>Persiapan trekking pada pukul 07.30 &ndash; 08.00</li>\\r\\n	<li>Berjalan di pemandangan terbuka 30 menit dengan tanaman hijau pohon kopi, Bambu, dll</li>\\r\\n	<li>Lewat jalan kaki 30 menit lagi menuju gerbang hutan hujan tropis, istirahat sejenak 15 menit</li>\\r\\n	<li>Lanjutkan berjalan melalui hutan di mana kita akan dibayangi matahari 3 jam ke POS 2 ( MONTONG SATAS 1.500m ), terlihat Monyet hitam dan pohon besar di jalan setapak.</li>\\r\\n	<li>Istirahat di POS 2, siapkan buah-buahan segar dan minuman ringan oleh Guide dan porter kami</li>\\r\\n	<li>Lanjut ke POS 3 ( MONDOKAN LOLAK 2.000m ) melewati hutan tropis, trawbery lokal ( Juni, Juli, Agustus ), jalan kaki 3 jam, makan siang akan disiapkan di POS 3 ( Buah segar, snack / biskuit dan makan siang )</li>\\r\\n	<li>Setelah 1 jam 30 menit istirahat, lanjut ke Lingkar Kawah Senaru ( 2.641m ) jalan kaki satu jam</li>\\r\\n	<li>Berkemah dan bermalam di kawah RIM Senaru, nikmati matahari</li>\\r\\n</ul>\\r\\n\\r\\n<p>Day 2:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Breakfast and enjoy sunrise by beautiful scenery of Segara Anak Lake</li>\\r\\n	<li>Walk down to Senaru village for 4-5 hours</li>\\r\\n	<li>Will arrive Senaru village approx 13.00 PM</li>\\r\\n	<li>Prepare your luggage, than transfer to your next destination ( Senggigi, Mataram or Bangsal harbor )</li>\\r\\n</ul>\\r\\n\\r\\n<hr />\\r\\n<p>Harga Termasuk:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Ambil dan transfer</li>\\r\\n	<li>Penginapan malam di Senaru</li>\\r\\n	<li>Pemandu trekking Porter</li>\\r\\n	<li>Makanan dan minuman,</li>\\r\\n	<li>Tenda, tenda toilet, kantong tidur, dan kasur</li>\\r\\n	<li>Biaya masuk taman nasional Rp300.000/trekker/trip (Rp150.000/orang/hari)</li>\\r\\n	<li>Pertolongan pertama pada kecelakaan</li>\\r\\n	<li>Asuransi perjalanan masuk</li>\\r\\n	<li>Menjemput Anda pada hari 0 dan mentransfer Anda setelah perjalanan Selesai,</li>\\r\\n	<li>Pemandu Trekking Rinjani</li>\\r\\n	<li>Porter untuk membawa perlengkapan logistik dan trek (tidak termasuk untuk membawa tas pribadi Anda)</li>\\r\\n	<li>Makan full board selama program perjalanan; sarapan, makan siang, makan malam, kopi atau teh, cokelat panas, makanan ringan, buah-buahan segar</li>\\r\\n	<li>Semua peralatan berkemah; tenda berkemah ukuran ganda, kasur, kantong tidur, tenda toilet, kursi berkemah.</li>\\r\\n	<li>Konsumsi air setiap hari dari air minum kemasan yang aman</li>\\r\\n	<li>Biaya masuk</li>\\r\\n	<li>Akomodasi malam di senaru atau Sembalun sebelum perjalanan.</li>\\r\\n</ul>\\r\\n\\r\\n<p><br />\\r\\nHarga Tidak Termasuk:</p>\\r\\n\\r\\n<ul>\\r\\n	<li>Head lamp/obor tangan</li>\\r\\n	<li>Paket tas kecil / paket harian</li>\\r\\n	<li>Sepatu trekking</li>\\r\\n	<li>Jaket trekking</li>\\r\\n	<li>Pesawat tiket</li>\\r\\n	<li>Porter tambahan untuk bagasi sendiri (22$/hari)</li>\\r\\n	<li>Celana/celana panjang</li>\\r\\n	<li>Tip untuk guide dan porter</li>\\r\\n</ul>\\r\\n\\r\\n<hr />\\r\\n<p><strong>CATATAN !!</strong><br />\\r\\nKetika Anda memesan perjalanan Anda melalui Horizon Tour and Travel, Anda akan diberikan Pemandu Gunung Berbahasa Inggris dan porter lokal dan sebagian besar kebutuhan berkemah seperti tenda, kantong tidur, kasur, perlengkapan memasak. dll.</p>\\r\\n\\r\\n<p>Namun, pemandu gunung dan porter kami hanya bertugas untuk membawa semua peralatan berkemah (tenda, kantong tidur, matras, dll), peralatan masak dan logistik yang diperlukan selama program (makanan, air, makanan ringan, buah-buahan, minuman ringan, dll) mereka tidak bertanggung jawab untuk membawa barang-barang pribadi Anda.</p>\\r\\n\\r\\n<hr />\\r\\n<p>Silahkan pesan paket tour mu sekarang dengan cara login terlebih dahulu kemudian isi form order yang ada di samping kanan.&nbsp;</p>\\r\\n\\r\\n<p>Jika ada pertanyaan, hubungi kami melalui WhatsApp kami yang berada di pojok kanan bawah.</p>\\r\\n\\r\\n<p>&nbsp;</p>\\r\\n\', \'senaru-crater-rim-1.jpg\', \'2022-12-20 20:11:29\', \'2022-12-20 20:11:29\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `produk` (`id_kategori`, `nama_produk`, `harga`, `deskripsi_produk`, `sampul`, `created_at`, `updated_at`) VALUES (:id_kategori:, :nama_produk:, :harga:, :deskripsi_produk:, :sampul:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\AdminProduk.php(61): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminProduk->save()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProduk))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:27:12 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:27:42 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:27:43 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:27:47 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:27:59 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(139): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formula()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:28:19 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(139): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formula()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:29:02 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(139): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formula()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:29:06 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 20:29:07 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:29:16 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:29:18 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:29:33 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('profile', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:30:08 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:30:11 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:30:16 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('profile', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:30:21 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:30:30 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(38): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:30:43 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(139): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formula()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-20 20:30:43 --> Undefined array key 4
+in APPPATH\Libraries\Prediction.php on line 247.
+ 1 APPPATH\Libraries\Prediction.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Libraries\\Prediction.php', 247)
+ 2 APPPATH\Libraries\Prediction.php(47): App\Libraries\Prediction->predictionRecomendationsForUser()
+ 3 APPPATH\Controllers\Home.php(139): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formula()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,81 @@
+CRITICAL - 2022-11-16 00:11:40 --> Too few arguments to function App\Models\M_Rating::hitungRating(), 0 passed in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Controllers\AdminProduk.php on line 72 and exactly 1 expected
+in APPPATH\Models\M_Rating.php on line 24.
+ 1 APPPATH\Controllers\AdminProduk.php(72): App\Models\M_Rating->hitungRating()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminProduk->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProduk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 00:11:59 --> Too few arguments to function App\Models\M_Rating::hitungRating(), 0 passed in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Controllers\AdminProduk.php on line 72 and exactly 1 expected
+in APPPATH\Models\M_Rating.php on line 24.
+ 1 APPPATH\Controllers\AdminProduk.php(72): App\Models\M_Rating->hitungRating()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminProduk->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProduk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 00:12:46 --> Too few arguments to function App\Models\M_Rating::hitungRating(), 0 passed in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Controllers\AdminProduk.php on line 72 and exactly 1 expected
+in APPPATH\Models\M_Rating.php on line 24.
+ 1 APPPATH\Controllers\AdminProduk.php(72): App\Models\M_Rating->hitungRating()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminProduk->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProduk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 00:12:48 --> Too few arguments to function App\Models\M_Rating::hitungRating(), 0 passed in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Controllers\AdminProduk.php on line 72 and exactly 1 expected
+in APPPATH\Models\M_Rating.php on line 24.
+ 1 APPPATH\Controllers\AdminProduk.php(72): App\Models\M_Rating->hitungRating()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminProduk->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProduk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 00:16:47 --> Too few arguments to function App\Models\M_Rating::hitungRating(), 0 passed in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Controllers\AdminProduk.php on line 72 and exactly 1 expected
+in APPPATH\Models\M_Rating.php on line 24.
+ 1 APPPATH\Controllers\AdminProduk.php(72): App\Models\M_Rating->hitungRating()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminProduk->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProduk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-16 00:16:49 --> Too few arguments to function App\Models\M_Rating::hitungRating(), 0 passed in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Controllers\AdminProduk.php on line 72 and exactly 1 expected
+in APPPATH\Models\M_Rating.php on line 24.
+ 1 APPPATH\Controllers\AdminProduk.php(72): App\Models\M_Rating->hitungRating()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminProduk->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProduk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-16 00:21:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=6' at line 3 in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(nila...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(nila...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(nila...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(nila...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Controllers\AdminProduk.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\AdminProduk->edit('6')
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProduk))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-11-16 00:21:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=6' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(nilai_rating) as total
+FROM `rating`
+WHERE `id_produk` = =6', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(nilai_rating) as total
+FROM `rating`
+WHERE `id_produk` = =6')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(nilai_rating) as total
+FROM `rating`
+WHERE `id_produk` = =6')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(nilai_rating) as total
+FROM `rating`
+WHERE `id_produk` = =6', [], false)
+ 5 APPPATH\Controllers\AdminProduk.php(76): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminProduk->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProduk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

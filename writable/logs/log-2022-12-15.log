@@ -1,0 +1,45 @@
+CRITICAL - 2022-12-15 10:29:31 --> whereNotIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 907.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(815): CodeIgniter\Database\BaseBuilder->_whereIn('username', null, true, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->whereNotIn('username', null)
+ 3 APPPATH\Models\M_Users.php(39): CodeIgniter\Model->__call('whereNotIn', [...])
+ 4 APPPATH\Libraries\Prediction.php(55): App\Models\M_Users->getUserPredictions()
+ 5 APPPATH\Libraries\Prediction.php(40): App\Libraries\Prediction->users()
+ 6 APPPATH\Controllers\Home.php(134): App\Libraries\Prediction->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formula()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-15 10:29:49 --> Call to undefined method App\Models\M_Produk::getProdukPredictions
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Libraries\Prediction.php(74): CodeIgniter\Model->__call('getProdukPredictions', [])
+ 2 APPPATH\Libraries\Prediction.php(41): App\Libraries\Prediction->products()
+ 3 APPPATH\Controllers\Home.php(134): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formula()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-15 10:31:24 --> Call to undefined method App\Models\M_Rating::getRatingPredictions
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Libraries\Prediction.php(88): CodeIgniter\Model->__call('getRatingPredictions', [])
+ 2 APPPATH\Libraries\Prediction.php(42): App\Libraries\Prediction->ratingDb()
+ 3 APPPATH\Controllers\Home.php(134): App\Libraries\Prediction->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formula()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-15 10:32:09 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 867.
+ 1 SYSTEMPATH\BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Libraries\Prediction.php(378): CodeIgniter\Model->update(20105, [...])
+ 4 APPPATH\Libraries\Prediction.php(369): App\Libraries\Prediction->update_mae_product()
+ 5 APPPATH\Controllers\Home.php(135): App\Libraries\Prediction->update()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formula()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

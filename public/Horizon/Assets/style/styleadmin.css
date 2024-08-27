@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: #3d97ca;
+  display: flex;
+  justify-content: space-between;
+}
+header p {
+  margin: 25px;
+  color: white;
+}
+header .logo {
+  padding: 20px;
+}
+main {
+  display: flex;
+}
+.sidebar {
+  background-color: #1d2223;
+  color: rgb(207, 207, 207);
+  width: 200px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.sidebar ul {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.sidebar ul .icon {
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.sidebar ul li {
+  list-style: none;
+  padding: 10px;
+}
+.sidebar ul li a {
+  display: flex;
+  width: fit-content;
+  color: rgb(255, 255, 255);
+  opacity: 60%;
+}
+.sidebar ul li a:hover {
+  opacity: 100%;
+}
+.sidebar ul li a p {
+  margin-left: 15px;
+}
+/* ukuran konten ukuran dashboard */
+/* ukuran konten ukuran dashboard */
+/* ukuran konten ukuran dashboard */
+.content {
+  width: 90%;
+  background-color: #f0f0f0;
+}
+.content .list-admin {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  padding: 0 50px;
+  flex-wrap: wrap;
+}
+.content .list-admin .container {
+  padding: 30px 60px;
+  background-color: #3d97ca;
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  color: white;
+  margin: 5px;
+  letter-spacing: 7px;
+}
+/* profile */
+.content .title {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.content .title p {
+  font-size: 12px;
+}
+.content .board {
+  padding: 30px;
+  margin: 0 20px 50px 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+.content .board form {
+  display: flex;
+  font-size: 12px;
+}
+.content form .ident {
+  width: 50%;
+  margin-left: 50px;
+}
+.content form .in {
+  margin: 10px;
+}
+.content form .in input {
+  width: 100%;
+  padding: 5px;
+}
+.content .profile-admin input[type="submit"] {
+  background-color: #51c64e;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+/* halaman user akses */
+.button-red a {
+  background-color: #eb3b3b;
+  padding: 10px 20px;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.button-add a {
+  background-color: #51c64e;
+  padding: 10px 20px;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.board table {
+  width: 100%;
+  margin-top: 50px;
+  border-collapse: collapse;
+}
+.board table .status {
+  width: 100px;
+}
+.board table tr {
+  font-weight: 400;
+  font-size: 12px;
+}
+.board table tr td {
+  padding: 10px 5px;
+}
+.board table .headline {
+  font-weight: 600;
+  font-size: 15px;
+  border-bottom: 1px solid black;
+}
+.board table td a img {
+  width: 15px;
+  margin: 0 5px;
+}
+/* untuk deskripsi atau untuk text yang panjang */
+.board table tr .desk {
+  width: 400px;
+}
+/* container penjualan bersih */
+.title-jumlah-transaksi {
+  font-size: 14px;
+}
+.jumlah-transaksi {
+  font-weight: 700;
+  font-size: 30px;
+}
+/* read only*/
+form .read {
+  background-color: rgb(241, 241, 241);
+  border: none;
+}
+.form-pemesanannya {
+  width: 400px;
+}
+.form-pemesanannya .radio {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  justify-content: left;
+  margin-left: 10px;
+}
+.form-pemesanannya input[type="submit"] {
+  background-color: #51c64e;
+  color: white;
+  border: none;
+  padding: 9px 20px;
+  margin-top: -10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* session */
+.session {
+  padding: 10px 35px;
+  margin: auto;
+  margin: 0 20px 10px 20px;
+  border-radius: 10px;
+  color: white;
+}
+.berhasil {
+  background-color: #51c64e;
+}
+.gagal {
+  background-color: #e03030;
+}
+/* transaksi */
+
+.transaksi table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.transaksi table .title td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+.transaksi table tr {
+  border-bottom: 2px solid #f3f3f3;
+}
+.transaksi table td {
+  padding: 10px;
+}
+.transaksi table .image {
+  width: 80px;
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+}
+.transaksi table .text {
+  margin: auto;
+  margin-left: 5px;
+}
+.transaksi button[type="submit"] {
+  background-color: #51c64e;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}

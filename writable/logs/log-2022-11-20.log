@@ -1,0 +1,39 @@
+ERROR - 2022-11-20 20:38:13 --> mysqli_sql_exception: Unknown column 'produk.id_prodok' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nama_pr...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama_pr...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama_pr...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nama_pr...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Models\M_Rating.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Collaborative.php(21): App\Models\M_Rating->PordukRating()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Collaborative->index()
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Collaborative))
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#11 {main}
+CRITICAL - 2022-11-20 20:38:13 --> Unknown column 'produk.id_prodok' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `nama_produk`, `produk`.`id_prodok` as `id_produk`, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating
+FROM `rating`
+JOIN `produk` ON `rating`.`id_produk` = `produk`.`id_produk`
+GROUP BY `rating`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama_produk`, `produk`.`id_prodok` as `id_produk`, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating
+FROM `rating`
+JOIN `produk` ON `rating`.`id_produk` = `produk`.`id_produk`
+GROUP BY `rating`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama_produk`, `produk`.`id_prodok` as `id_produk`, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating
+FROM `rating`
+JOIN `produk` ON `rating`.`id_produk` = `produk`.`id_produk`
+GROUP BY `rating`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nama_produk`, `produk`.`id_prodok` as `id_produk`, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating
+FROM `rating`
+JOIN `produk` ON `rating`.`id_produk` = `produk`.`id_produk`
+GROUP BY `rating`.`id_produk`', [], false)
+ 5 APPPATH\Models\M_Rating.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Collaborative.php(21): App\Models\M_Rating->PordukRating()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Collaborative->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Collaborative))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,414 @@
+CRITICAL - 2022-12-03 00:19:51 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-03 00:37:30 --> mysqli_sql_exception: Unknown column 'group_id.id' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Home.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-12-03 00:37:30 --> Unknown column 'group_id.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`.`id` as `userid`, `group_id`.`id` as `groupid`, `auth_groups_users`.`user_id` as `authuserid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`id` as `userid`, `group_id`.`id` as `groupid`, `auth_groups_users`.`user_id` as `authuserid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`id` as `userid`, `group_id`.`id` as `groupid`, `auth_groups_users`.`user_id` as `authuserid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id` as `userid`, `group_id`.`id` as `groupid`, `auth_groups_users`.`user_id` as `authuserid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`', [], false)
+ 5 APPPATH\Controllers\Home.php(32): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 00:53:38 --> Call to a member function select() on null
+in APPPATH\Controllers\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 00:54:52 --> Call to a member function select() on null
+in APPPATH\Controllers\Home.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 00:55:25 --> Call to a member function select() on null
+in APPPATH\Controllers\Home.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 00:58:03 --> Too few arguments to function in_groups(), 0 passed in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Views\user\layout.php on line 25 and exactly 1 expected
+in VENDORPATH\myth\auth\src\Helpers\auth_helper.php on line 61.
+ 1 APPPATH\Views\user\layout.php(25): in_groups()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('user/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Home', [], true)
+ 6 APPPATH\Controllers\Home.php(47): view('user/Home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 00:58:36 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\Home.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 00:59:58 --> Attempt to read property "id" on null
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Controllers\\Home.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 01:10:26 --> Undefined array key "role"
+in APPPATH\Views\user\layout.php on line 25.
+ 1 APPPATH\Views\user\layout.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Views\\user\\layout.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('user/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Home', [], true)
+ 6 APPPATH\Controllers\Home.php(47): view('user/Home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 01:13:44 --> Undefined array key "role"
+in APPPATH\Views\user\layout.php on line 25.
+ 1 APPPATH\Views\user\layout.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Views\\user\\layout.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('user/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Home', [], true)
+ 6 APPPATH\Controllers\Home.php(47): view('user/Home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 01:14:41 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 01:14:48 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 01:15:01 --> Call to undefined method stdClass::getResult()
+in APPPATH\Controllers\Home.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 01:15:52 --> Undefined variable $roleuser
+in APPPATH\Views\user\layout.php on line 25.
+ 1 APPPATH\Views\user\layout.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roleuser', 'APPPATH\\Views\\user\\layout.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('user/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Home', [], true)
+ 6 APPPATH\Controllers\Home.php(49): view('user/Home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 01:21:53 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Home.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 01:22:09 --> Undefined property: stdClass::$row
+in APPPATH\Controllers\Home.php on line 36.
+ 1 APPPATH\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$row', 'APPPATH\\Controllers\\Home.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 18:55:08 --> Attempt to read property "role" on null
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "role" on null', 'APPPATH\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 18:55:32 --> Attempt to read property "role" on null
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "role" on null', 'APPPATH\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 18:55:45 --> Attempt to read property "role" on null
+in APPPATH\Controllers\Home.php on line 37.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "role" on null', 'APPPATH\\Controllers\\Home.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 18:57:14 --> Undefined variable $rolee
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rolee', 'APPPATH\\Controllers\\Home.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 18:59:38 --> Attempt to read property "role" on null
+in APPPATH\Controllers\Home.php on line 44.
+ 1 APPPATH\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "role" on null', 'APPPATH\\Controllers\\Home.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:00:58 --> Undefined variable $role
+in APPPATH\Views\user\layout.php on line 25.
+ 1 APPPATH\Views\user\layout.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'APPPATH\\Views\\user\\layout.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('user/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Tour', [], true)
+ 6 APPPATH\Controllers\Home.php(73): view('user/Tour', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:07:27 --> Call to undefined function App\Controllers\user()
+in APPPATH\Controllers\Home.php on line 25.
+ 1 APPPATH\Controllers\Home.php(21): App\Controllers\Home->cekrule()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:08:21 --> Call to undefined function App\Controllers\user()
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(21): App\Controllers\Home->cekrule()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:08:25 --> Undefined variable $iduser
+in APPPATH\Controllers\Home.php on line 32.
+ 1 APPPATH\Controllers\Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $iduser', 'APPPATH\\Controllers\\Home.php', 32)
+ 2 APPPATH\Controllers\Home.php(21): App\Controllers\Home->cekrule()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:08:49 --> Call to undefined function App\Controllers\user()
+in APPPATH\Controllers\Home.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:09:13 --> Call to undefined function App\Controllers\user()
+in APPPATH\Controllers\Home.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:09:41 --> Call to undefined function App\Controllers\user()
+in APPPATH\Controllers\Home.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:10:12 --> Call to undefined function App\Controllers\user()
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(21): App\Controllers\Home->cekrule()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:11:53 --> Undefined variable $role
+in APPPATH\Views\user\layout.php on line 25.
+ 1 APPPATH\Views\user\layout.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'APPPATH\\Views\\user\\layout.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('user/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Tour', [], true)
+ 6 APPPATH\Controllers\Home.php(95): view('user/Tour', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:12:19 --> Undefined variable $role
+in APPPATH\Views\user\layout.php on line 25.
+ 1 APPPATH\Views\user\layout.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'APPPATH\\Views\\user\\layout.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('user/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Tour', [], true)
+ 6 APPPATH\Controllers\Home.php(95): view('user/Tour', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:12:29 --> Undefined variable $role
+in APPPATH\Views\user\layout.php on line 25.
+ 1 APPPATH\Views\user\layout.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'APPPATH\\Views\\user\\layout.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('user/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Tour', [], true)
+ 6 APPPATH\Controllers\Home.php(96): view('user/Tour', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:14:23 --> Undefined global variable $_SESSION
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'APPPATH\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:14:35 --> Undefined global variable $_SESSION
+in APPPATH\Controllers\Home.php on line 23.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'APPPATH\\Controllers\\Home.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:14:45 --> Call to undefined function App\Controllers\user()
+in APPPATH\Controllers\Home.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:15:43 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:16:55 --> Call to undefined function App\Controllers\user()
+in APPPATH\Controllers\Home.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:17:11 --> Call to undefined function App\Controllers\user()
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(21): App\Controllers\Home->cekrule()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:17:42 --> Call to undefined function App\Controllers\user()
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(21): App\Controllers\Home->cekrule()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:18:38 --> Call to undefined function App\Controllers\user()
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(21): App\Controllers\Home->cekrule()
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:18:49 --> Call to undefined method App\Controllers\Home::cekrule()
+in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:40:08 --> Undefined variable $role
+in APPPATH\Views\user\layout.php on line 25.
+ 1 APPPATH\Views\user\layout.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $role', 'APPPATH\\Views\\user\\layout.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('user/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/homeedit', [], true)
+ 6 APPPATH\Controllers\Home.php(66): view('user/homeedit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->homeedit()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 19:40:22 --> syntax error, unexpected single-quoted string "role", expecting "]"
+in APPPATH\Controllers\Home.php on line 67.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 20:13:31 --> Call to a member function cekrule() on null
+in APPPATH\Controllers\Profile.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profile->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

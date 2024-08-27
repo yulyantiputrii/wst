@@ -1,0 +1,196 @@
+CRITICAL - 2022-11-26 22:07:27 --> Undefined property: stdClass::$similiarity
+in APPPATH\Controllers\Collaborative2.php on line 218.
+ 1 APPPATH\Controllers\Collaborative2.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$similiarity', 'APPPATH\\Controllers\\Collaborative2.php', 218)
+ 2 APPPATH\Controllers\Collaborative2.php(38): App\Controllers\Collaborative2->similarities()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 22:41:31 --> Undefined property: App\Controllers\Collaborative2::$user_id
+in APPPATH\Controllers\Collaborative2.php on line 250.
+ 1 APPPATH\Controllers\Collaborative2.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Collaborative2::$user_id', 'APPPATH\\Controllers\\Collaborative2.php', 250)
+ 2 APPPATH\Controllers\Collaborative2.php(42): App\Controllers\Collaborative2->predictionRecomendationsForUser()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 22:41:39 --> Undefined property: App\Controllers\Collaborative2::$user_id
+in APPPATH\Controllers\Collaborative2.php on line 250.
+ 1 APPPATH\Controllers\Collaborative2.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Collaborative2::$user_id', 'APPPATH\\Controllers\\Collaborative2.php', 250)
+ 2 APPPATH\Controllers\Collaborative2.php(42): App\Controllers\Collaborative2->predictionRecomendationsForUser()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 22:43:40 --> Undefined property: App\Controllers\Collaborative2::$user_id
+in APPPATH\Controllers\Collaborative2.php on line 250.
+ 1 APPPATH\Controllers\Collaborative2.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Collaborative2::$user_id', 'APPPATH\\Controllers\\Collaborative2.php', 250)
+ 2 APPPATH\Controllers\Collaborative2.php(42): App\Controllers\Collaborative2->predictionRecomendationsForUser()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 22:43:45 --> Undefined property: App\Controllers\Collaborative2::$user_id
+in APPPATH\Controllers\Collaborative2.php on line 250.
+ 1 APPPATH\Controllers\Collaborative2.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Collaborative2::$user_id', 'APPPATH\\Controllers\\Collaborative2.php', 250)
+ 2 APPPATH\Controllers\Collaborative2.php(42): App\Controllers\Collaborative2->predictionRecomendationsForUser()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 22:43:57 --> Undefined property: App\Controllers\Collaborative2::$user_id
+in APPPATH\Controllers\Collaborative2.php on line 250.
+ 1 APPPATH\Controllers\Collaborative2.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Collaborative2::$user_id', 'APPPATH\\Controllers\\Collaborative2.php', 250)
+ 2 APPPATH\Controllers\Collaborative2.php(42): App\Controllers\Collaborative2->predictionRecomendationsForUser()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 22:44:02 --> Undefined property: App\Controllers\Collaborative2::$user_id
+in APPPATH\Controllers\Collaborative2.php on line 250.
+ 1 APPPATH\Controllers\Collaborative2.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Collaborative2::$user_id', 'APPPATH\\Controllers\\Collaborative2.php', 250)
+ 2 APPPATH\Controllers\Collaborative2.php(42): App\Controllers\Collaborative2->predictionRecomendationsForUser()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 22:44:24 --> Undefined property: App\Controllers\Collaborative2::$user_id
+in APPPATH\Controllers\Collaborative2.php on line 250.
+ 1 APPPATH\Controllers\Collaborative2.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Collaborative2::$user_id', 'APPPATH\\Controllers\\Collaborative2.php', 250)
+ 2 APPPATH\Controllers\Collaborative2.php(42): App\Controllers\Collaborative2->predictionRecomendationsForUser()
+ 3 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 22:44:41 --> Call to undefined method App\Controllers\Collaborative2::predictionRecomendationsForUser()
+in APPPATH\Controllers\Collaborative2.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 23:08:58 --> Call to undefined function App\Controllers\user()
+in APPPATH\Controllers\Collaborative2.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Collaborative2->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 23:10:50 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...], false)
+ 6 APPPATH\Controllers\Collaborative2.php(78): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Collaborative2.php(302): App\Controllers\Collaborative2->user()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Collaborative2->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Collaborative2))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 23:10:55 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...], false)
+ 6 APPPATH\Controllers\Collaborative2.php(78): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Collaborative2.php(302): App\Controllers\Collaborative2->user()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Collaborative2->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Collaborative2))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 23:11:03 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...], false)
+ 6 APPPATH\Controllers\Collaborative2.php(78): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Collaborative2.php(302): App\Controllers\Collaborative2->user()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Collaborative2->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Collaborative2))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 23:11:11 --> syntax error, unexpected token "("
+in APPPATH\Controllers\Collaborative2.php on line 302.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Collaborative2.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Collaborative2')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Collaborative2')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Collaborative2', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 23:11:16 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...], false)
+ 6 APPPATH\Controllers\Collaborative2.php(78): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Collaborative2.php(302): App\Controllers\Collaborative2->user()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Collaborative2->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Collaborative2))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-26 23:12:01 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `username`
+FROM `users`
+WHERE `id` = :id:', [...], false)
+ 6 APPPATH\Controllers\Collaborative2.php(78): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH\Controllers\Collaborative2.php(303): App\Controllers\Collaborative2->user()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Collaborative2->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Collaborative2))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

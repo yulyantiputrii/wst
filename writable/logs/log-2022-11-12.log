@@ -1,0 +1,478 @@
+CRITICAL - 2022-11-12 00:00:12 --> Undefined variable $config
+in APPPATH\Views\auth\Login.php on line 23.
+ 1 APPPATH\Views\auth\Login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $config', 'APPPATH\\Views\\auth\\Login.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\auth\\Login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Auth/Login', [], true)
+ 5 APPPATH\Controllers\Login.php(9): view('Auth/Login')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 00:10:12 --> Undefined variable $config
+in APPPATH\Views\auth\Login.php on line 23.
+ 1 APPPATH\Views\auth\Login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $config', 'APPPATH\\Views\\auth\\Login.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\auth\\Login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Auth/Login', [], true)
+ 5 APPPATH\Controllers\Login.php(9): view('Auth/Login')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 00:10:19 --> Undefined variable $config
+in APPPATH\Views\auth\Login.php on line 23.
+ 1 APPPATH\Views\auth\Login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $config', 'APPPATH\\Views\\auth\\Login.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\auth\\Login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Auth/Login', [], true)
+ 5 APPPATH\Controllers\Login.php(9): view('Auth/Login')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 00:10:53 --> Undefined variable $config
+in APPPATH\Views\auth\Login.php on line 23.
+ 1 APPPATH\Views\auth\Login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $config', 'APPPATH\\Views\\auth\\Login.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\auth\\Login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Auth/Login', [], true)
+ 5 APPPATH\Controllers\Login.php(9): view('Auth/Login')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 00:12:02 --> Can't use function return value in write context
+in APPPATH\Views\user\layout.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-12 00:21:22 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 00:24:10 --> Attempt to read property "null" on null
+in APPPATH\Views\user\layout.php on line 18.
+ 1 APPPATH\Views\user\layout.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "null" on null', 'APPPATH\\Views\\user\\layout.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('user/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Home', [], true)
+ 6 APPPATH\Controllers\Home.php(13): view('user/Home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 00:24:15 --> Attempt to read property "null" on null
+in APPPATH\Views\user\layout.php on line 18.
+ 1 APPPATH\Views\user\layout.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "null" on null', 'APPPATH\\Views\\user\\layout.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('user/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Home', [], true)
+ 6 APPPATH\Controllers\Home.php(13): view('user/Home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 00:25:31 --> Attempt to read property "username" on null
+in APPPATH\Views\user\layout.php on line 20.
+ 1 APPPATH\Views\user\layout.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'APPPATH\\Views\\user\\layout.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('user/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Home', [], true)
+ 6 APPPATH\Controllers\Home.php(13): view('user/Home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 01:15:21 --> Undefined variable $user
+in APPPATH\Views\user\layout-navbar-user.php on line 17.
+ 1 APPPATH\Views\user\layout-navbar-user.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\user\\layout-navbar-user.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\layout-navbar-user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('user/layout-navbar-user', null, true)
+ 5 APPPATH\Views\user\layout.php(24): CodeIgniter\View\View->include('user/layout-navbar-user')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('user/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Home', [], true)
+10 APPPATH\Controllers\Home.php(13): view('user/Home', [...])
+11 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 01:24:36 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 01:31:01 --> Undefined variable $config
+in APPPATH\Views\auth\Login.php on line 23.
+ 1 APPPATH\Views\auth\Login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $config', 'APPPATH\\Views\\auth\\Login.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\auth\\Login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Auth/Login', [], true)
+ 5 APPPATH\Controllers\Login.php(9): view('Auth/Login')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 01:38:07 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 01:55:34 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 06:45:06 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 06:46:09 --> Invalid file: Eror.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Eror.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Eror', [], true)
+ 3 VENDORPATH\myth\auth\src\Filters\RoleFilter.php(44): view('Eror')
+ 4 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 06:46:42 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 06:52:20 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 07:17:49 --> Cannot use object of type Myth\Auth\Entities\User as array
+in APPPATH\Views\admin\UserAkses.php on line 22.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/UserAkses', [], true)
+ 4 APPPATH\Controllers\AdminProfile.php(25): view('admin/UserAkses', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminProfile->userakses()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProfile))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 07:20:24 --> Object of type Myth\Auth\Entities\User is not callable
+in APPPATH\Views\admin\UserAkses.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/UserAkses', [], true)
+ 4 APPPATH\Controllers\AdminProfile.php(25): view('admin/UserAkses', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminProfile->userakses()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProfile))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 07:50:28 --> Undefined variable $user
+in APPPATH\Views\admin\UserAkses.php on line 26.
+ 1 APPPATH\Views\admin\UserAkses.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\admin\\UserAkses.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\UserAkses.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/UserAkses', [], true)
+ 5 APPPATH\Controllers\AdminProfile.php(25): view('admin/UserAkses', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminProfile->userakses()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProfile))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-12 08:30:39 --> mysqli_sql_exception: Unknown column 'auth_group.id' in 'on clause' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Controllers\AdminProfile.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\AdminProfile->userakses()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProfile))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-11-12 08:30:39 --> Unknown column 'auth_group.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_group`.`id` = `auth_groups_users`.`group`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_group`.`id` = `auth_groups_users`.`group`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_group`.`id` = `auth_groups_users`.`group`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_group`.`id` = `auth_groups_users`.`group`.`id`', [], false)
+ 5 APPPATH\Controllers\AdminProfile.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminProfile->userakses()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProfile))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-12 08:31:18 --> mysqli_sql_exception: Unknown column 'auth_group.id' in 'on clause' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Controllers\AdminProfile.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\AdminProfile->userakses()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProfile))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-11-12 08:31:18 --> Unknown column 'auth_group.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_group`.`id` = `auth_groups_users`.`group`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_group`.`id` = `auth_groups_users`.`group`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_group`.`id` = `auth_groups_users`.`group`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_group`.`id` = `auth_groups_users`.`group`.`id`', [], false)
+ 5 APPPATH\Controllers\AdminProfile.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminProfile->userakses()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProfile))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-12 08:31:30 --> mysqli_sql_exception: Unknown column 'auth_groups_users.group.id' in 'on clause' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Controllers\AdminProfile.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\AdminProfile->userakses()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProfile))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-11-12 08:31:30 --> Unknown column 'auth_groups_users.group.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_groups`.`id` = `auth_groups_users`.`group`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_groups`.`id` = `auth_groups_users`.`group`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_groups`.`id` = `auth_groups_users`.`group`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_groups`.`id` = `auth_groups_users`.`group`.`id`', [], false)
+ 5 APPPATH\Controllers\AdminProfile.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminProfile->userakses()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminProfile))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-12 08:45:00 --> mysqli_sql_exception: Unknown column 'users_id' in 'where clause' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`....', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\app\Controllers\UserAdmin.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\UserAdmin->detail('4')
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserAdmin))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-11-12 08:45:00 --> Unknown column 'users_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`
+WHERE `users_id` = \'4\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`
+WHERE `users_id` = \'4\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`
+WHERE `users_id` = \'4\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id` as `userid`, `username`, `email`, `name`
+FROM `users`
+JOIN `auth_groups_users` ON `auth_groups_users`.`user_id` = `users`.`id`
+JOIN `auth_groups` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`
+WHERE `users_id` = :users_id:', [...], false)
+ 5 APPPATH\Controllers\UserAdmin.php(39): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UserAdmin->detail('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 08:48:01 --> Object of type stdClass is not callable
+in APPPATH\Views\admin\detail.php on line 35.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/detail', [], true)
+ 4 APPPATH\Controllers\UserAdmin.php(46): view('admin/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UserAdmin->detail('4')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserAdmin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 08:49:53 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\detail.php on line 36.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/detail', [], true)
+ 4 APPPATH\Controllers\UserAdmin.php(47): view('admin/detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UserAdmin->detail('4')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserAdmin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 09:40:31 --> Object of type stdClass is not callable
+in APPPATH\Views\admin\useraksesdetail.php on line 68.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/useraksesdetail', [], true)
+ 4 APPPATH\Controllers\UserAdmin.php(49): view('admin/useraksesdetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UserAdmin->detail('4')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserAdmin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 09:53:12 --> Undefined variable $user
+in APPPATH\Views\admin\layout.php on line 21.
+ 1 APPPATH\Views\admin\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\admin\\layout.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\layout.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('admin/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/userakses', [], true)
+ 6 APPPATH\Controllers\UserAdmin.php(28): view('admin/userakses', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UserAdmin->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserAdmin))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 20:46:29 --> There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 269.
+ 1 SYSTEMPATH\Model.php(269): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\UserAdmin.php(57): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UserAdmin->update('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 20:47:49 --> There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 269.
+ 1 SYSTEMPATH\Model.php(269): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\UserAdmin.php(58): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\UserAdmin->update('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 23:13:02 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\kategori.php on line 24.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kategori', [], true)
+ 4 APPPATH\Controllers\AdminKategori.php(34): view('admin/kategori', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminKategori->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminKategori))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 23:13:12 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\kategori.php on line 24.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kategori', [], true)
+ 4 APPPATH\Controllers\AdminKategori.php(34): view('admin/kategori', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminKategori->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminKategori))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 23:13:25 --> Invalid file: admin/detail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/detail.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/detail', [], true)
+ 3 APPPATH\Controllers\AdminKategori.php(34): view('admin/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminKategori->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminKategori))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-12 23:47:12 --> Undefined array key "deskripsi_kateghori"
+in APPPATH\Views\admin\kategoridetail.php on line 24.
+ 1 APPPATH\Views\admin\kategoridetail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "deskripsi_kateghori"', 'APPPATH\\Views\\admin\\kategoridetail.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kategoridetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kategoridetail', [], true)
+ 5 APPPATH\Controllers\AdminKategori.php(34): view('admin/kategoridetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminKategori->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminKategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

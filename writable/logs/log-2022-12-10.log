@@ -1,0 +1,407 @@
+CRITICAL - 2022-12-10 00:16:39 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\AdminTransaksi.php on line 94.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\AdminTransaksi.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminTransaksi')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminTransaksi')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminTransaksi', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:23:58 --> Undefined property: App\Controllers\AdminTransaksi::$mTransaksi
+in APPPATH\Controllers\AdminTransaksi.php on line 93.
+ 1 APPPATH\Controllers\AdminTransaksi.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminTransaksi::$mTransaksi', 'APPPATH\\Controllers\\AdminTransaksi.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->update('12')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:44:30 --> Invalid file: user/detailhistory.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/detailhistory.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/detailhistory', [], true)
+ 3 APPPATH\Controllers\Cart.php(137): view('user/detailhistory', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->detailhistory('12')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:45:31 --> Invalid file: user/hsitorydetail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/hsitorydetail.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/hsitorydetail', [], true)
+ 3 APPPATH\Controllers\Cart.php(137): view('user/hsitorydetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->detailhistory('12')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:50:38 --> Undefined variable $detail_pesanan
+in APPPATH\Views\user\historydetail.php on line 73.
+ 1 APPPATH\Views\user\historydetail.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detail_pesanan', 'APPPATH\\Views\\user\\historydetail.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\historydetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/historydetail', [], true)
+ 5 APPPATH\Controllers\Cart.php(141): view('user/historydetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->detailhistory('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:52:05 --> Undefined variable $detail_pesanan
+in APPPATH\Views\user\historydetail.php on line 73.
+ 1 APPPATH\Views\user\historydetail.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detail_pesanan', 'APPPATH\\Views\\user\\historydetail.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\historydetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/historydetail', [], true)
+ 5 APPPATH\Controllers\Cart.php(141): view('user/historydetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->detailhistory('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:52:34 --> Undefined property: stdClass::$sampul
+in APPPATH\Views\user\historydetail.php on line 73.
+ 1 APPPATH\Views\user\historydetail.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$sampul', 'APPPATH\\Views\\user\\historydetail.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\historydetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/historydetail', [], true)
+ 5 APPPATH\Controllers\Cart.php(141): view('user/historydetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->detailhistory('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:53:45 --> Undefined variable $history
+in APPPATH\Controllers\Cart.php on line 130.
+ 1 APPPATH\Controllers\Cart.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $history', 'APPPATH\\Controllers\\Cart.php', 130)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->detailhistory('12')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:57:26 --> Undefined property: stdClass::$namaproduk
+in APPPATH\Views\user\historydetail.php on line 53.
+ 1 APPPATH\Views\user\historydetail.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$namaproduk', 'APPPATH\\Views\\user\\historydetail.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\historydetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/historydetail', [], true)
+ 5 APPPATH\Controllers\Cart.php(142): view('user/historydetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->detailhistory('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:57:53 --> Undefined property: stdClass::$namaproduk
+in APPPATH\Views\user\historydetail.php on line 53.
+ 1 APPPATH\Views\user\historydetail.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$namaproduk', 'APPPATH\\Views\\user\\historydetail.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\historydetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/historydetail', [], true)
+ 5 APPPATH\Controllers\Cart.php(142): view('user/historydetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->detailhistory('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:58:04 --> Undefined property: stdClass::$namaproduk
+in APPPATH\Views\user\historydetail.php on line 53.
+ 1 APPPATH\Views\user\historydetail.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$namaproduk', 'APPPATH\\Views\\user\\historydetail.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\historydetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/historydetail', [], true)
+ 5 APPPATH\Controllers\Cart.php(142): view('user/historydetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->detailhistory('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:58:21 --> Undefined property: stdClass::$namaproduk
+in APPPATH\Views\user\historydetail.php on line 53.
+ 1 APPPATH\Views\user\historydetail.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$namaproduk', 'APPPATH\\Views\\user\\historydetail.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\historydetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/historydetail', [], true)
+ 5 APPPATH\Controllers\Cart.php(142): view('user/historydetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->detailhistory('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:58:25 --> Undefined property: stdClass::$namaproduk
+in APPPATH\Views\user\historydetail.php on line 53.
+ 1 APPPATH\Views\user\historydetail.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$namaproduk', 'APPPATH\\Views\\user\\historydetail.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\historydetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/historydetail', [], true)
+ 5 APPPATH\Controllers\Cart.php(142): view('user/historydetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->detailhistory('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 00:59:08 --> Undefined property: stdClass::$jenis_detail_pesanan
+in APPPATH\Views\user\historydetail.php on line 69.
+ 1 APPPATH\Views\user\historydetail.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jenis_detail_pesanan', 'APPPATH\\Views\\user\\historydetail.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\historydetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/historydetail', [], true)
+ 5 APPPATH\Controllers\Cart.php(142): view('user/historydetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->detailhistory('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 01:02:59 --> Undefined variable $detail_pesanan
+in APPPATH\Views\admin\transaksidetail.php on line 139.
+ 1 APPPATH\Views\admin\transaksidetail.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detail_pesanan', 'APPPATH\\Views\\admin\\transaksidetail.php', 139)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\transaksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/transaksidetail', [], true)
+ 5 APPPATH\Controllers\AdminTransaksi.php(90): view('admin/transaksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->view('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 01:03:37 --> Undefined property: stdClass::$nama_produk
+in APPPATH\Views\admin\transaksidetail.php on line 141.
+ 1 APPPATH\Views\admin\transaksidetail.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_produk', 'APPPATH\\Views\\admin\\transaksidetail.php', 141)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\transaksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/transaksidetail', [], true)
+ 5 APPPATH\Controllers\AdminTransaksi.php(90): view('admin/transaksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->view('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 01:12:59 --> syntax error, unexpected token "=="
+in APPPATH\Views\user\historydetail.php on line 62.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/historydetail', [], true)
+ 3 APPPATH\Controllers\Cart.php(142): view('user/historydetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->detailhistory('12')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 01:13:15 --> syntax error, unexpected token "else", expecting end of file
+in APPPATH\Views\user\historydetail.php on line 64.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/historydetail', [], true)
+ 3 APPPATH\Controllers\Cart.php(142): view('user/historydetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->detailhistory('12')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 03:12:49 --> Undefined variable $produk
+in APPPATH\Views\user\Tour.php on line 26.
+ 1 APPPATH\Views\user\Tour.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'APPPATH\\Views\\user\\Tour.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\Tour.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Tour', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('user/Tour', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 03:17:47 --> Call to undefined method App\Models\M_Rating::getProdukKategori
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(78): CodeIgniter\Model->__call('getProdukKategori', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 03:17:57 --> Undefined array key "idproduk"
+in APPPATH\Views\user\Tour.php on line 22.
+ 1 APPPATH\Views\user\Tour.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idproduk"', 'APPPATH\\Views\\user\\Tour.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\Tour.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Tour', [], true)
+ 5 APPPATH\Controllers\Home.php(85): view('user/Tour', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 03:18:12 --> Undefined array key "rata_rating"
+in APPPATH\Views\user\Tour.php on line 29.
+ 1 APPPATH\Views\user\Tour.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rata_rating"', 'APPPATH\\Views\\user\\Tour.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\Tour.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Tour', [], true)
+ 5 APPPATH\Controllers\Home.php(85): view('user/Tour', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 04:04:19 --> Undefined array key "rata_rating"
+in APPPATH\Views\user\Tour.php on line 29.
+ 1 APPPATH\Views\user\Tour.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rata_rating"', 'APPPATH\\Views\\user\\Tour.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\Tour.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Tour', [], true)
+ 5 APPPATH\Controllers\Home.php(85): view('user/Tour', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-10 04:06:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 3' at line 1 in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT produk.i...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT produk.i...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk.i...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Models\M_Rating.php(28): CodeIgniter\Database\BaseConnection->query('SELECT produk.i...')
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Home.php(40): App\Models\M_Rating->hitungRating()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-12-10 04:06:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 3' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk; DESC LIMIT 3 ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk; DESC LIMIT 3 ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk; DESC LIMIT 3 ')
+ 4 APPPATH\Models\M_Rating.php(28): CodeIgniter\Database\BaseConnection->query('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk; DESC LIMIT 3 ')
+ 5 APPPATH\Controllers\Home.php(40): App\Models\M_Rating->hitungRating()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-10 04:06:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 3' at line 1 in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT produk.i...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT produk.i...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk.i...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Models\M_Rating.php(28): CodeIgniter\Database\BaseConnection->query('SELECT produk.i...')
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Home.php(40): App\Models\M_Rating->hitungRating()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-12-10 04:06:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC LIMIT 3' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk; DESC LIMIT 3 ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk; DESC LIMIT 3 ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk; DESC LIMIT 3 ')
+ 4 APPPATH\Models\M_Rating.php(28): CodeIgniter\Database\BaseConnection->query('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk; DESC LIMIT 3 ')
+ 5 APPPATH\Controllers\Home.php(40): App\Models\M_Rating->hitungRating()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 04:07:10 --> Undefined array key "rata_rating"
+in APPPATH\Views\user\Tour.php on line 29.
+ 1 APPPATH\Views\user\Tour.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rata_rating"', 'APPPATH\\Views\\user\\Tour.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\Tour.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Tour', [], true)
+ 5 APPPATH\Controllers\Home.php(85): view('user/Tour', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 04:08:21 --> Undefined array key "id_produk"
+in APPPATH\Views\user\Tour.php on line 22.
+ 1 APPPATH\Views\user\Tour.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_produk"', 'APPPATH\\Views\\user\\Tour.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\Tour.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Tour', [], true)
+ 5 APPPATH\Controllers\Home.php(85): view('user/Tour', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 06:49:58 --> Undefined variable $prod
+in APPPATH\Views\user\Tour.php on line 20.
+ 1 APPPATH\Views\user\Tour.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'APPPATH\\Views\\user\\Tour.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\Tour.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Tour', [], true)
+ 5 APPPATH\Controllers\Home.php(86): view('user/Tour', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 20:34:28 --> Undefined array key "induk_katgegori"
+in APPPATH\Views\user\Tour-trekking.php on line 21.
+ 1 APPPATH\Views\user\Tour-trekking.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "induk_katgegori"', 'APPPATH\\Views\\user\\Tour-trekking.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\Tour-trekking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/tour-trekking', [], true)
+ 5 APPPATH\Controllers\Home.php(103): view('user/tour-trekking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->trekking()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-10 20:34:54 --> Undefined array key "induk_katgegori"
+in APPPATH\Views\user\Tour-trekking.php on line 21.
+ 1 APPPATH\Views\user\Tour-trekking.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "induk_katgegori"', 'APPPATH\\Views\\user\\Tour-trekking.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\Tour-trekking.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/tour-trekking', [], true)
+ 5 APPPATH\Controllers\Home.php(103): view('user/tour-trekking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->trekking()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-10 23:15:50 --> mysqli_sql_exception: Unknown column 'DESC' in 'order clause' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `fullnam...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Models\M_Produk.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Home.php(113): App\Models\M_Produk->getratingfirst('6')
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->detailtour('6')
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#11 {main}
+CRITICAL - 2022-12-10 23:15:50 --> Unknown column 'DESC' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `fullname`, `komentar`, `nilai_rating`, `id_rating`
+FROM `rating`
+JOIN `users` ON `rating`.`id` = `users`.`id`
+WHERE `rating`.`id_produk` = 6
+ORDER BY `DESC`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullname`, `komentar`, `nilai_rating`, `id_rating`
+FROM `rating`
+JOIN `users` ON `rating`.`id` = `users`.`id`
+WHERE `rating`.`id_produk` = 6
+ORDER BY `DESC`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullname`, `komentar`, `nilai_rating`, `id_rating`
+FROM `rating`
+JOIN `users` ON `rating`.`id` = `users`.`id`
+WHERE `rating`.`id_produk` = 6
+ORDER BY `DESC`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `fullname`, `komentar`, `nilai_rating`, `id_rating`
+FROM `rating`
+JOIN `users` ON `rating`.`id` = `users`.`id`
+WHERE `rating`.`id_produk` = 6
+ORDER BY `DESC`', [], false)
+ 5 APPPATH\Models\M_Produk.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(113): App\Models\M_Produk->getratingfirst('6')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detailtour('6')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

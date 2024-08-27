@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Assets/style/style.css" />
+    <title>Profile</title>
+  </head>
+  <body>
+    <header style="height: 350px">
+      <div class="shadow" style="height: 350px">
+        <nav>
+          <div class="logo">
+            <a href="#"><img src="../Assets/img/logo.png" width="200px" alt="" /></a>
+          </div>
+
+          <ul>
+            <li>
+              <a href="#">Tour Package</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <a href="#"><div class="loginfront">Login</div></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="title-tour">
+          <h1>Hello User!</h1>
+        </div>
+      </div>
+    </header>
+    <div class="profile-edit">
+      <form action="">
+        <div class="foto">
+          <img src="../Assets/img/profilepic.jpg" width="400px" alt="" />
+          <br />
+          <input type="file" name="retro.png" />
+        </div>
+        <div class="inputan">
+          <div class="dua">
+            <div class="in">
+              <label for="nama" method="POST" class="">Name</label>
+              <input type="text" name="nama" id="nama" class="" required />
+            </div>
+            <div class="in">
+              <label for="usia" method="POST" class="">Age</label>
+              <input type="text" name="usa" id="usa" class="" required />
+            </div>
+          </div>
+          <div class="input">
+            <label for="email" method="POST" class="">E-mail</label>
+            <input type="email" name="email" id="email" class="" required />
+          </div>
+          <div class="input">
+            <label for="username" method="POST" class="">Username</label>
+            <input type="text" name="username" id="username" class="" required />
+          </div>
+          <div class="dua">
+            <div class="in">
+              <label for="phone" method="POST" class="">Phone Number</label>
+              <input type="text" name="phone" id="phone" class="" required />
+            </div>
+            <div class="in">
+              <label for="instagram" method="POST" class="">Instagram</label>
+              <input type="text" name="instagram" id="instagram" class="" required />
+            </div>
+          </div>
+          <div class="dua">
+            <div class="in">
+              <label for="country" method="POST" class="">Country</label>
+              <input type="text" name="country" id="country" class="" required />
+            </div>
+            <div class="in">
+              <label for="city" method="POST" class="">City</label>
+              <input type="text" name="city" id="city" class="" required />
+            </div>
+          </div>
+          <div class="btn-profile">
+            <input type="submit" value="Update" />
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="table-history">
+      <table>
+        <tr class="title">
+          <td>Product</td>
+          <td>Qty</td>
+          <td>Price</td>
+          <td>Total Price</td>
+          <td>Order</td>
+          <td>Booking</td>
+          <td>Status</td>
+          <td>Rate</td>
+        </tr>
+        <tr class="isi">
+          <td>Lorem A Tours</td>
+          <td>2x</td>
+          <td>$54</td>
+          <td>$108</td>
+          <td>Mon, 31 Oct 2022</td>
+          <td>Fri, 4 Nov 2022</td>
+          <td>Coming Soon</td>
+          <td>
+            <a href="#">
+              <b>Rate</b>
+            </a>
+          </td>
+        </tr>
+        <tr class="isi">
+          <td>Lorem B Tours</td>
+          <td>1x</td>
+          <td>$34</td>
+          <td>$34</td>
+          <td>Mon, 31 Oct 2022</td>
+          <td>Fri, 4 Nov 2022</td>
+          <td>Finished</td>
+          <td class="stars">
+            <!-- <?php 
+
+            $rate = 3;
+            $rateminus = 5 - $rate; //2
+
+            if ($rate == 0){
+                echo "belum memberi rate";
+            } else {
+                for($i = 0; $i < $rate; $i++){
+                    echo "<img src='Assets/icon/rating.png' style='width: 15px;' />";
+                }
+                for($i = 0; $i < $rateminus; $i++){
+                    echo "<img src='Assets/icon/ratingg.png' style='width: 15px;' />";
+                }
+            }
+
+            ?> -->
+            <img src="../Assets/icon/rating.png" alt="" />
+            <img src="../Assets/icon/rating.png" alt="" />
+            <img src="../Assets/icon/rating.png" alt="" />
+            <img src="../Assets/icon/rating.png" alt="" />
+            <img src="../Assets/icon/ratingg.png" alt="" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <footer>© Horizon Tour and Travel 2022 | Designed by Retno Ekayanti</footer>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+CRITICAL - 2022-12-19 22:22:57 --> Attempt to read property "id" on null
+in APPPATH\Libraries\Prediction.php on line 38.
+ 1 APPPATH\Libraries\Prediction.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Libraries\\Prediction.php', 38)
+ 2 APPPATH\Controllers\Home.php(39): App\Libraries\Prediction->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 22:24:56 --> Attempt to read property "id" on null
+in APPPATH\Libraries\Prediction.php on line 38.
+ 1 APPPATH\Libraries\Prediction.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Libraries\\Prediction.php', 38)
+ 2 APPPATH\Controllers\Home.php(39): App\Libraries\Prediction->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 22:26:33 --> Attempt to read property "id" on null
+in APPPATH\Libraries\Prediction.php on line 38.
+ 1 APPPATH\Libraries\Prediction.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Libraries\\Prediction.php', 38)
+ 2 APPPATH\Controllers\Home.php(39): App\Libraries\Prediction->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 22:26:37 --> Attempt to read property "id" on null
+in APPPATH\Libraries\Prediction.php on line 38.
+ 1 APPPATH\Libraries\Prediction.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Libraries\\Prediction.php', 38)
+ 2 APPPATH\Controllers\Home.php(39): App\Libraries\Prediction->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 22:26:41 --> Attempt to read property "id" on null
+in APPPATH\Libraries\Prediction.php on line 38.
+ 1 APPPATH\Libraries\Prediction.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'APPPATH\\Libraries\\Prediction.php', 38)
+ 2 APPPATH\Controllers\Home.php(39): App\Libraries\Prediction->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

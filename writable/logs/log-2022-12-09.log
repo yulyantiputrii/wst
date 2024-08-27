@@ -1,0 +1,995 @@
+CRITICAL - 2022-12-09 00:06:26 --> Attempt to read property "status" on array
+in APPPATH\Views\user\history.php on line 18.
+ 1 APPPATH\Views\user\history.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status" on array', 'APPPATH\\Views\\user\\history.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/history', [], true)
+ 5 APPPATH\Controllers\Cart.php(112): view('user/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 00:06:40 --> Undefined array key "status"
+in APPPATH\Views\user\history.php on line 18.
+ 1 APPPATH\Views\user\history.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Views\\user\\history.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/history', [], true)
+ 5 APPPATH\Controllers\Cart.php(112): view('user/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 00:10:07 --> syntax error, unexpected variable "$his", expecting "("
+in APPPATH\Views\user\history.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/history', [], true)
+ 3 APPPATH\Controllers\Cart.php(112): view('user/history', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 00:25:13 --> Undefined array key "status"
+in APPPATH\Views\user\history.php on line 19.
+ 1 APPPATH\Views\user\history.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Views\\user\\history.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/history', [], true)
+ 5 APPPATH\Controllers\Cart.php(112): view('user/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 00:26:54 --> Undefined array key "status"
+in APPPATH\Views\user\history.php on line 19.
+ 1 APPPATH\Views\user\history.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Views\\user\\history.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/history', [], true)
+ 5 APPPATH\Controllers\Cart.php(112): view('user/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 00:27:16 --> Undefined array key "judul_tour"
+in APPPATH\Views\user\history.php on line 22.
+ 1 APPPATH\Views\user\history.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "judul_tour"', 'APPPATH\\Views\\user\\history.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/history', [], true)
+ 5 APPPATH\Controllers\Cart.php(112): view('user/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 00:31:17 --> mysqli_sql_exception: Unknown column 'judul_produk' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tran...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tran...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tran...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tran...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Models\M_Transaksi.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Cart.php(104): App\Models\M_Transaksi->detailtransaksi('4')
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Cart->history()
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#11 {main}
+CRITICAL - 2022-12-09 00:31:17 --> Unknown column 'judul_produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_transaksi`, `judul_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_transaksi`, `judul_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_transaksi`, `judul_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_transaksi`, `judul_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4', [], false)
+ 5 APPPATH\Models\M_Transaksi.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(104): App\Models\M_Transaksi->detailtransaksi('4')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 00:32:32 --> mysqli_sql_exception: Unknown column 'judul_produk' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tran...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tran...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tran...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tran...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Models\M_Transaksi.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Cart.php(104): App\Models\M_Transaksi->detailtransaksi('4')
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Cart->history()
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#11 {main}
+CRITICAL - 2022-12-09 00:32:32 --> Unknown column 'judul_produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_transaksi`, `judul_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_transaksi`, `judul_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_transaksi`, `judul_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_transaksi`, `judul_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4', [], false)
+ 5 APPPATH\Models\M_Transaksi.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(104): App\Models\M_Transaksi->detailtransaksi('4')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 00:33:09 --> mysqli_sql_exception: Unknown column 'produk.judul_produk' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tran...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tran...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tran...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tran...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Models\M_Transaksi.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Cart.php(104): App\Models\M_Transaksi->detailtransaksi('4')
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Cart->history()
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#11 {main}
+CRITICAL - 2022-12-09 00:33:09 --> Unknown column 'produk.judul_produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_transaksi`, `produk`.`judul_produk` as `judul`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_transaksi`, `produk`.`judul_produk` as `judul`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_transaksi`, `produk`.`judul_produk` as `judul`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_transaksi`, `produk`.`judul_produk` as `judul`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4', [], false)
+ 5 APPPATH\Models\M_Transaksi.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(104): App\Models\M_Transaksi->detailtransaksi('4')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 00:33:24 --> mysqli_sql_exception: Column 'created_at' in field list is ambiguous in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tran...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tran...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tran...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tran...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Models\M_Transaksi.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Cart.php(104): App\Models\M_Transaksi->detailtransaksi('4')
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Cart->history()
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#11 {main}
+CRITICAL - 2022-12-09 00:33:24 --> Column 'created_at' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_transaksi`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_transaksi`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_transaksi`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_transaksi`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `created_at`, `updated_at`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4', [], false)
+ 5 APPPATH\Models\M_Transaksi.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(104): App\Models\M_Transaksi->detailtransaksi('4')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 00:33:44 --> mysqli_sql_exception: Column 'id_produk' in field list is ambiguous in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tran...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tran...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tran...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tran...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Models\M_Transaksi.php(41): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Cart.php(104): App\Models\M_Transaksi->detailtransaksi('4')
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Cart->history()
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#11 {main}
+CRITICAL - 2022-12-09 00:33:44 --> Column 'id_produk' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_transaksi`, `id_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_transaksi`, `id_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_transaksi`, `id_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_transaksi`, `id_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4', [], false)
+ 5 APPPATH\Models\M_Transaksi.php(41): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(104): App\Models\M_Transaksi->detailtransaksi('4')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 00:34:27 --> mysqli_sql_exception: Unknown column 'judul_produk' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tran...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tran...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tran...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tran...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Models\M_Transaksi.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Cart.php(104): App\Models\M_Transaksi->detailtransaksi('4')
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Cart->history()
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#11 {main}
+CRITICAL - 2022-12-09 00:34:27 --> Unknown column 'judul_produk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `judul_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `judul_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `judul_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `judul_produk`, `item`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+WHERE `transaksi`.`id` = 4', [], false)
+ 5 APPPATH\Models\M_Transaksi.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(104): App\Models\M_Transaksi->detailtransaksi('4')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 00:42:58 --> Undefined array key "nama_profuk"
+in APPPATH\Views\user\history.php on line 48.
+ 1 APPPATH\Views\user\history.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_profuk"', 'APPPATH\\Views\\user\\history.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/history', [], true)
+ 5 APPPATH\Controllers\Cart.php(115): view('user/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 01:02:33 --> Undefined array key "total_bayar"
+in APPPATH\Views\user\history.php on line 71.
+ 1 APPPATH\Views\user\history.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_bayar"', 'APPPATH\\Views\\user\\history.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/history', [], true)
+ 5 APPPATH\Controllers\Cart.php(112): view('user/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 06:34:28 --> Undefined array key "id_kategori"
+in APPPATH\Views\user\history.php on line 77.
+ 1 APPPATH\Views\user\history.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kategori"', 'APPPATH\\Views\\user\\history.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/history', [], true)
+ 5 APPPATH\Controllers\Cart.php(112): view('user/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 06:34:30 --> Undefined array key "id_kategori"
+in APPPATH\Views\user\history.php on line 77.
+ 1 APPPATH\Views\user\history.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kategori"', 'APPPATH\\Views\\user\\history.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/history', [], true)
+ 5 APPPATH\Controllers\Cart.php(112): view('user/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 08:22:30 --> mysqli_sql_exception: Unknown column '//' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tran...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tran...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tran...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tran...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Models\M_Transaksi.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Cart.php(104): App\Models\M_Transaksi->detailtransaksi('4')
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Cart->history()
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#11 {main}
+CRITICAL - 2022-12-09 08:22:30 --> Unknown column '//' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `nama_produk`, `item`, `harga`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `//` `id_rating`, `//` `nilai_rating`, `//` `komentar`, `transaksi`.`created_at` as `created`, `transaksi`.`updated_at` as `updated`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+JOIN `rating` ON `transaksi`.`id` = `rating`.`id`
+WHERE `transaksi`.`id` = 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `nama_produk`, `item`, `harga`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `//` `id_rating`, `//` `nilai_rating`, `//` `komentar`, `transaksi`.`created_at` as `created`, `transaksi`.`updated_at` as `updated`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+JOIN `rating` ON `transaksi`.`id` = `rating`.`id`
+WHERE `transaksi`.`id` = 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `nama_produk`, `item`, `harga`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `//` `id_rating`, `//` `nilai_rating`, `//` `komentar`, `transaksi`.`created_at` as `created`, `transaksi`.`updated_at` as `updated`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+JOIN `rating` ON `transaksi`.`id` = `rating`.`id`
+WHERE `transaksi`.`id` = 4')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `nama_produk`, `item`, `harga`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `//` `id_rating`, `//` `nilai_rating`, `//` `komentar`, `transaksi`.`created_at` as `created`, `transaksi`.`updated_at` as `updated`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+JOIN `rating` ON `transaksi`.`id` = `rating`.`id`
+WHERE `transaksi`.`id` = 4', [], false)
+ 5 APPPATH\Models\M_Transaksi.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(104): App\Models\M_Transaksi->detailtransaksi('4')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 08:26:32 --> Undefined array key "id_produk"
+in APPPATH\Views\user\history.php on line 108.
+ 1 APPPATH\Views\user\history.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_produk"', 'APPPATH\\Views\\user\\history.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/history', [], true)
+ 5 APPPATH\Controllers\Cart.php(112): view('user/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 08:37:38 --> Call to a member function save() on null
+in APPPATH\Controllers\Cart.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('12')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 08:39:14 --> Call to a member function save() on null
+in APPPATH\Controllers\Cart.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('13')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 08:39:51 --> Call to a member function save() on null
+in APPPATH\Controllers\Cart.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('14')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 08:40:42 --> Call to a member function save() on null
+in APPPATH\Controllers\Cart.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('15')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 08:41:22 --> Call to a member function save() on null
+in APPPATH\Controllers\Cart.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 08:45:03 --> Call to a member function save() on null
+in APPPATH\Controllers\Cart.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 08:45:33 --> Call to a member function save() on null
+in APPPATH\Controllers\Cart.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 08:48:11 --> Call to a member function save() on null
+in APPPATH\Controllers\Cart.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 08:48:18 --> Call to a member function save() on null
+in APPPATH\Controllers\Cart.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 08:50:17 --> Call to a member function save() on null
+in APPPATH\Controllers\Cart.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 08:51:02 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Cart.php(90): CodeIgniter\BaseModel->save(Array)
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('1')
+#10 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#11 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#14 {main}
+CRITICAL - 2022-12-09 08:51:02 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (\'4\', \'7\', \'2022-12-09 08:51:02\', \'2022-12-09 08:51:02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (\'4\', \'7\', \'2022-12-09 08:51:02\', \'2022-12-09 08:51:02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (\'4\', \'7\', \'2022-12-09 08:51:02\', \'2022-12-09 08:51:02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (:id:, :id_produk:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Cart.php(90): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 08:51:22 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Cart.php(90): CodeIgniter\BaseModel->save(Array)
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('1')
+#10 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#11 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#14 {main}
+CRITICAL - 2022-12-09 08:51:22 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (\'4\', \'7\', \'2022-12-09 08:51:22\', \'2022-12-09 08:51:22\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (\'4\', \'7\', \'2022-12-09 08:51:22\', \'2022-12-09 08:51:22\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (\'4\', \'7\', \'2022-12-09 08:51:22\', \'2022-12-09 08:51:22\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (:id:, :id_produk:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Cart.php(90): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 08:52:17 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Cart.php(90): CodeIgniter\BaseModel->save(Array)
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('1')
+#10 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#11 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#14 {main}
+CRITICAL - 2022-12-09 08:52:17 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (\'4\', \'7\', \'2022-12-09 08:52:17\', \'2022-12-09 08:52:17\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (\'4\', \'7\', \'2022-12-09 08:52:17\', \'2022-12-09 08:52:17\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (\'4\', \'7\', \'2022-12-09 08:52:17\', \'2022-12-09 08:52:17\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (:id:, :id_produk:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Cart.php(90): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 08:52:37 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\Cart.php(90): CodeIgniter\BaseModel->save(Array)
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('1')
+#10 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#11 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#14 {main}
+CRITICAL - 2022-12-09 08:52:37 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (\'4\', \'7\', \'2022-12-09 08:52:37\', \'2022-12-09 08:52:37\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (\'4\', \'7\', \'2022-12-09 08:52:37\', \'2022-12-09 08:52:37\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (\'4\', \'7\', \'2022-12-09 08:52:37\', \'2022-12-09 08:52:37\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rating` (`id`, `id_produk`, `created_at`, `updated_at`) VALUES (:id:, :id_produk:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Cart.php(90): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->addtransaksi('1')
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 09:21:30 --> Undefined variable $prod
+in APPPATH\Views\user\history.php on line 146.
+ 1 APPPATH\Views\user\history.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'APPPATH\\Views\\user\\history.php', 146)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/history', [], true)
+ 5 APPPATH\Controllers\Cart.php(121): view('user/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 09:26:19 --> syntax error, unexpected token "=>", expecting "]"
+in APPPATH\Controllers\Cart.php on line 128.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Cart.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cart')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cart')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Cart', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 10:32:30 --> mysqli_sql_exception: Unknown column 'payment_method' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tran...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tran...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tran...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tran...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\AdminTransaksi.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\AdminTransaksi->index()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-12-09 10:32:30 --> Unknown column 'payment_method' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`', [], false)
+ 5 APPPATH\Controllers\AdminTransaksi.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 10:32:58 --> mysqli_sql_exception: Unknown column 'payment_method' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tran...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tran...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tran...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tran...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\AdminTransaksi.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\AdminTransaksi->index()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-12-09 10:32:58 --> Unknown column 'payment_method' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`', [], false)
+ 5 APPPATH\Controllers\AdminTransaksi.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 10:37:50 --> mysqli_sql_exception: Unknown column 'id_rating' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tran...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tran...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tran...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tran...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\AdminTransaksi.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\AdminTransaksi->index()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-12-09 10:37:50 --> Unknown column 'id_rating' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `nama_produk`, `item`, `harga`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `id_rating`, `nilai_rating`, `komentar`, `transaksi`.`created_at` as `created`, `transaksi`.`updated_at` as `updated`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `nama_produk`, `item`, `harga`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `id_rating`, `nilai_rating`, `komentar`, `transaksi`.`created_at` as `created`, `transaksi`.`updated_at` as `updated`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `nama_produk`, `item`, `harga`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `id_rating`, `nilai_rating`, `komentar`, `transaksi`.`created_at` as `created`, `transaksi`.`updated_at` as `updated`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `nama_produk`, `item`, `harga`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `id_rating`, `nilai_rating`, `komentar`, `transaksi`.`created_at` as `created`, `transaksi`.`updated_at` as `updated`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`', [], false)
+ 5 APPPATH\Controllers\AdminTransaksi.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 10:46:43 --> mysqli_sql_exception: Unknown column 'payment_method' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tran...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tran...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tran...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tran...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\AdminTransaksi.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\AdminTransaksi->index()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-12-09 10:46:43 --> Unknown column 'payment_method' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`', [], false)
+ 5 APPPATH\Controllers\AdminTransaksi.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-09 10:46:48 --> mysqli_sql_exception: Unknown column 'payment_method' in 'field list' in E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tran...', 0)
+#1 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tran...')
+#2 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tran...')
+#3 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tran...', Array, false)
+#4 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\app\Controllers\AdminTransaksi.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\AdminTransaksi->index()
+#6 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+#7 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\...KULI AH\Script SI alias skripsi\Aplikasi Tour n Travel\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\...KULI AH\\S...')
+#10 {main}
+CRITICAL - 2022-12-09 10:46:48 --> Unknown column 'payment_method' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_transaksi`, `produk`.`id_produk` as `idproduk`, `produk`.`nama_produk` as `namaproduk`, `harga`, `item`, `fullname`, `tanggal_tour`, `payment_method`, `status_transaksi`, `transaksi`.`created_at` as `created`
+FROM `users`
+JOIN `transaksi` ON `users`.`id` = `transaksi`.`id`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`', [], false)
+ 5 APPPATH\Controllers\AdminTransaksi.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 20:11:14 --> Undefined variable $total_biaya
+in APPPATH\Views\admin\transaksi.php on line 42.
+ 1 APPPATH\Views\admin\transaksi.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_biaya', 'APPPATH\\Views\\admin\\transaksi.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\transaksi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/transaksi', [], true)
+ 5 APPPATH\Controllers\AdminTransaksi.php(74): view('admin/transaksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 20:13:45 --> Undefined array key "created_at"
+in APPPATH\Views\user\history.php on line 122.
+ 1 APPPATH\Views\user\history.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'APPPATH\\Views\\user\\history.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\history.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/history', [], true)
+ 5 APPPATH\Controllers\Cart.php(121): view('user/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 20:25:40 --> Undefined array key "id"
+in APPPATH\Views\admin\kategoridetail.php on line 12.
+ 1 APPPATH\Views\admin\kategoridetail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\admin\\kategoridetail.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kategoridetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kategoridetail', [], true)
+ 5 APPPATH\Controllers\AdminKategori.php(31): view('admin/kategoridetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminKategori->detail('8')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminKategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 20:36:55 --> Undefined array key "id"
+in APPPATH\Views\admin\kategoridetail.php on line 12.
+ 1 APPPATH\Views\admin\kategoridetail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\admin\\kategoridetail.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kategoridetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kategoridetail', [], true)
+ 5 APPPATH\Controllers\AdminKategori.php(31): view('admin/kategoridetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminKategori->detail('8')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminKategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 20:48:43 --> Undefined variable $produk
+in APPPATH\Views\admin\transaksidetail.php on line 7.
+ 1 APPPATH\Views\admin\transaksidetail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'APPPATH\\Views\\admin\\transaksidetail.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\transaksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/transaksidetail', [], true)
+ 5 APPPATH\Controllers\AdminTransaksi.php(87): view('admin/transaksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->view('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 20:48:59 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\transaksidetail.php on line 7.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/transaksidetail', [], true)
+ 4 APPPATH\Controllers\AdminTransaksi.php(87): view('admin/transaksidetail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->view('12')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 20:49:31 --> Undefined property: stdClass::$updated_at
+in APPPATH\Views\admin\transaksidetail.php on line 7.
+ 1 APPPATH\Views\admin\transaksidetail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$updated_at', 'APPPATH\\Views\\admin\\transaksidetail.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\transaksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/transaksidetail', [], true)
+ 5 APPPATH\Controllers\AdminTransaksi.php(87): view('admin/transaksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->view('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 21:43:35 --> Undefined array key "id"
+in APPPATH\Views\admin\kategoridetail.php on line 12.
+ 1 APPPATH\Views\admin\kategoridetail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\admin\\kategoridetail.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kategoridetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kategoridetail', [], true)
+ 5 APPPATH\Controllers\AdminKategori.php(31): view('admin/kategoridetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminKategori->detail('8')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminKategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 21:53:28 --> Undefined property: stdClass::$status_transaks
+in APPPATH\Views\admin\transaksidetail.php on line 69.
+ 1 APPPATH\Views\admin\transaksidetail.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$status_transaks', 'APPPATH\\Views\\admin\\transaksidetail.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\transaksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/transaksidetail', [], true)
+ 5 APPPATH\Controllers\AdminTransaksi.php(87): view('admin/transaksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->view('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 21:56:49 --> Undefined property: stdClass::$buktitransaksi
+in APPPATH\Views\admin\transaksidetail.php on line 59.
+ 1 APPPATH\Views\admin\transaksidetail.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$buktitransaksi', 'APPPATH\\Views\\admin\\transaksidetail.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\transaksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/transaksidetail', [], true)
+ 5 APPPATH\Controllers\AdminTransaksi.php(87): view('admin/transaksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->view('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 22:23:56 --> Undefined array key "id"
+in APPPATH\Views\admin\kategoridetail.php on line 12.
+ 1 APPPATH\Views\admin\kategoridetail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\admin\\kategoridetail.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kategoridetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kategoridetail', [], true)
+ 5 APPPATH\Controllers\AdminKategori.php(31): view('admin/kategoridetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminKategori->detail('8')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminKategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 22:24:39 --> Undefined array key "id"
+in APPPATH\Views\admin\kategoridetail.php on line 12.
+ 1 APPPATH\Views\admin\kategoridetail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\admin\\kategoridetail.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kategoridetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kategoridetail', [], true)
+ 5 APPPATH\Controllers\AdminKategori.php(31): view('admin/kategoridetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminKategori->detail('8')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminKategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 22:26:19 --> Undefined array key "id"
+in APPPATH\Views\admin\kategoridetail.php on line 12.
+ 1 APPPATH\Views\admin\kategoridetail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\admin\\kategoridetail.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\kategoridetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/kategoridetail', [], true)
+ 5 APPPATH\Controllers\AdminKategori.php(31): view('admin/kategoridetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminKategori->detail('8')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminKategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 22:35:26 --> Undefined property: stdClass::$nama_tour
+in APPPATH\Views\admin\transaksidetail.php on line 118.
+ 1 APPPATH\Views\admin\transaksidetail.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_tour', 'APPPATH\\Views\\admin\\transaksidetail.php', 118)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\transaksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/transaksidetail', [], true)
+ 5 APPPATH\Controllers\AdminTransaksi.php(88): view('admin/transaksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->view('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-09 22:35:38 --> Undefined property: stdClass::$nama_produk
+in APPPATH\Views\admin\transaksidetail.php on line 118.
+ 1 APPPATH\Views\admin\transaksidetail.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_produk', 'APPPATH\\Views\\admin\\transaksidetail.php', 118)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\transaksidetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/transaksidetail', [], true)
+ 5 APPPATH\Controllers\AdminTransaksi.php(88): view('admin/transaksidetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AdminTransaksi->view('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminTransaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

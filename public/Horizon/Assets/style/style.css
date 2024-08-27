@@ -1,0 +1,784 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  /* background-color: rgb(53, 53, 53); */
+}
+/* header */
+header {
+  height: 700px;
+  background-image: url("../img/derek-thomson-TWoL-QCZubY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header .shadow {
+  height: 700px;
+  background: linear-gradient(to right, #000000d8, #00000025);
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  margin-left: 30px;
+  font-weight: 500;
+}
+header nav .logo {
+  margin: 30px;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  padding: 50px 10px;
+  list-style: none;
+}
+header nav a {
+  color: white;
+}
+header nav a:hover {
+  color: rgb(255, 174, 0);
+}
+header nav .dropdown {
+  display: none;
+  position: absolute;
+  margin-left: -50px;
+  text-align: right;
+  font-size: 12px;
+}
+header nav .dropdown .a {
+  padding: 10px 20px;
+}
+header nav .dropdown a {
+  color: black;
+}
+header nav .drop:hover .dropdown {
+  display: block;
+  background-color: white;
+}
+header .loginfront {
+  padding: 10px 30px;
+  background-color: #ffbb00;
+  color: black;
+  border-radius: 100px;
+  margin-top: -10px;
+}
+.headline {
+  width: 600px;
+  color: white;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.headline h1 {
+  font-size: 80px;
+}
+.headline h3 {
+  margin-top: -20px;
+  font-size: 50px;
+}
+.headline p {
+  margin-top: 20px;
+  font-weight: 300;
+}
+.btn-headline {
+  width: 280px;
+  margin-top: 30px;
+}
+
+.btn-headline a {
+  padding: 10px 20px;
+  background-color: #ffbb00;
+  color: rgb(0, 0, 0);
+  border-radius: 100px;
+}
+/* isi lates post */
+.main-lates {
+  /* height: 800px; */
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: #1d2223;
+}
+.main-lates h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+}
+.card-post {
+  height: 330px;
+  /* margin: 30px; */
+  width: 350px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.521);
+}
+
+.list-post {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.list-post a {
+  margin: 30px 10px;
+}
+.main-lates .list-post a {
+  color: black;
+}
+.card-post .header-card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 180px;
+}
+.card-post .shadow-card {
+  position: absolute;
+  width: 350px;
+  height: 180px;
+  background: linear-gradient(#00000025, #00000077);
+  display: flex;
+}
+.rating {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+}
+.rating img {
+  width: 15px;
+}
+.harga {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #ffbb00;
+}
+.card-post .ket {
+  margin: 10px 20px;
+}
+.card-post h2 {
+  font-size: 20px;
+}
+.card-post p {
+  font-size: 12px;
+}
+.card-post .line-post {
+  margin-bottom: 10px;
+  background-color: #00000038;
+  height: 1px;
+  width: 100%;
+}
+.btn-more {
+  padding-top: 70px;
+  width: 120px;
+  margin: auto;
+}
+.btn-more a {
+  padding: 10px 40px;
+  background-color: #ffbb00;
+  padding: 10px 20pxrgb (255, 187, 0);
+  border-radius: 100px;
+  color: black;
+}
+/* about */
+/* travel recommendation */
+.travel-recommendation {
+  height: 250px;
+  background-image: url("../img/a.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.travel-recommendation .shadow {
+  height: 250px;
+  background: linear-gradient(#00000067, #000000cc);
+}
+.travel-recommendation h1 {
+  font-size: 40px;
+  padding: 70px 200px 0 200px;
+  color: white;
+}
+footer {
+  background-color: #0b0c0c;
+  padding: 30px 0;
+  color: white;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+}
+/* TOUR PACKAGES */
+.title-tour h1 {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+}
+.post {
+  display: flex;
+  justify-content: space-between;
+  /* height: 500px; */
+  padding: 50px 0 100px 0;
+  background-color: #1d2223;
+}
+.post a {
+  color: black;
+}
+
+/* DETAIL TOUR */
+.detail-tours {
+  background-color: #f2f2f2;
+  display: flex;
+}
+.detail-tours .detail {
+  background-color: white;
+}
+.detail-tours .desk {
+  font-size: 14px;
+  margin: 50px;
+  text-align: justify;
+  margin-bottom: 100px;
+  /* width: 800px; */
+}
+.detail-tours form {
+  background-color: #6fcacf;
+  width: 300px;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.062);
+}
+.detail-tours .card-tour {
+  background-color: #ffffff;
+  /* border: 0.5px solid #6fcacf; */
+  width: 300px;
+  margin: 30px;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.062);
+  font-size: 14px;
+}
+.detail-tours .card-tour .headercomment {
+  display: flex;
+  font-size: 12px;
+}
+.detail-tours .card-tour .ratingg {
+  margin-left: 10px;
+}
+.detail-tours .card-tour .ratingg img {
+  width: 10px;
+}
+.detail-tours .isicomment {
+  font-size: 11px;
+  color: #505152;
+}
+.detail-tours .booking h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.detail-tours input {
+  padding: 8px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+}
+.detail-tours .btn {
+  margin: 10px;
+}
+.detail-tours button[type="submit"] {
+  width: 99%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #ffd200;
+  font-size: 17px;
+  cursor: pointer;
+}
+.detail-tours .logindulu {
+  width: 99%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #ffd200;
+  font-size: 17px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+}
+.detail-tours ul {
+  margin-left: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.detail-tours ul li {
+  margin-top: 3px;
+}
+
+.detail-tours hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 50%;
+}
+/* CART */
+.main-cart {
+  background-color: #f9f9f9;
+  padding: 100px;
+  position: relative;
+}
+.main-cart .card {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px 5%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.123);
+}
+.main-cart h3 {
+  color: #454444;
+  margin-left: 10px;
+}
+.main-cart table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.main-cart table .title td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+.main-cart table tr {
+  border-bottom: 2px solid #f3f3f3;
+}
+.main-cart table td {
+  padding: 10px;
+}
+.main-cart table .image {
+  width: 80px;
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+}
+.main-cart table .text {
+  margin: auto;
+  margin-left: 5px;
+}
+.main-cart .butn {
+  position: relative;
+  right: 0;
+  height: 20px;
+  margin-top: 10px;
+}
+.main-cart .btn input {
+  position: absolute;
+  right: 70px;
+  padding: 5px 20px;
+  text-align: center;
+  background-color: #ffd200;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}
+.main-cart .btn {
+  position: relative;
+  right: 0;
+  height: 20px;
+  width: 100%;
+  margin-top: -5px;
+}
+.main-cart .a {
+  position: absolute;
+  right: 0;
+  width: 100px;
+  text-align: center;
+}
+.main-cart .btn a {
+  padding: 7px 30px;
+  background-color: #ffbb00;
+  border-radius: 100px;
+  color: black;
+  font-size: 14px;
+}
+/* Checkout */
+.pembayaran {
+}
+.pembayaran .pemb {
+  margin: auto;
+  width: 240px;
+  display: flex;
+  justify-content: space-around;
+}
+.pemb button {
+  padding: 10px 30px;
+  border: none;
+  background-color: #ffbb00;
+  cursor: pointer;
+}
+.pemb button:hover {
+  background-color: #ff9100;
+}
+/* PROFILE */
+.profile-edit {
+  padding: 100px 50px;
+  font-size: 12px;
+}
+.profile-edit form {
+  display: flex;
+  justify-content: space-around;
+}
+.profile-edit .inputan {
+  width: 500px;
+}
+.profile-edit input {
+  width: 100%;
+  padding: 5px;
+}
+.profile-edit .dua {
+  display: flex;
+  justify-content: space-between;
+}
+.profile-edit .dua .in {
+  width: 100%;
+  margin: 5px;
+}
+.profile-edit .input {
+  margin: 5px;
+  margin-bottom: 20px;
+}
+.profile-edit input[type="submit"] {
+  margin: 30px 5px;
+  padding: 10px 30px;
+  background-color: #ffbb00;
+  color: black;
+  border: none;
+  width: auto;
+}
+.profile-edit input[type="submit"]:hover {
+  cursor: pointer;
+}
+.profilepict {
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* table history. masih di page profile */
+
+/* CATEGORI HOME */
+/* CATEGORI HOME */
+/* CATEGORI HOME */
+/* CATEGORI HOME */
+/* CATEGORI HOME */
+.ctgr {
+  background-color: white;
+  color: black;
+  padding: 50px 50px;
+  margin: auto;
+  width: 1000px;
+}
+.cc {
+  display: flex;
+  justify-content: space-around;
+}
+/* CART USER */
+.billing .cartuser td {
+  padding: 5px 20px 5px 0;
+}
+
+/* history */
+.history {
+  margin: 50px 100px;
+}
+.history h3 {
+  font-weight: 400;
+  color: #9c9c9c;
+}
+.history .card {
+  background-color: #6fcacf;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: black;
+}
+.history .card .top {
+  /* display: flex; */
+  margin-bottom: 20px;
+}
+.history .card .stat {
+  display: flex;
+}
+.history .card .status {
+  font-size: 10px;
+  padding: 1px 10px;
+  margin-right: 5px;
+  border-radius: 100px;
+}
+.history .card .unpaid {
+  background-color: #e64016;
+}
+.history .card .ongoing {
+  background-color: #d47528;
+}
+.history .card .paid {
+  background-color: #51c64e;
+}
+.history .card .finished {
+  background-color: #51c64e;
+}
+.history .card h3 {
+  color: white;
+  font-weight: 800;
+  font-size: 25px;
+}
+.history .card table {
+  width: 100%;
+  font-size: 13px;
+}
+.history .card .rate {
+  background-color: #ffd200;
+  padding: 10px;
+  border-radius: 100px;
+  text-align: center;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+}
+.history .card .rate:hover {
+  background-color: #ff9100;
+}
+.line-history {
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  margin-bottom: 10px;
+}
+.history .kosong {
+  padding: 200px 0;
+  text-align: center;
+}
+.history .card img {
+  width: 23px;
+}
+.history form .file {
+  margin: auto;
+  margin-top: 50px;
+  width: 200px;
+}
+/* Modal rate */
+.modal-window {
+  position: fixed;
+  background-color: grey;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-window > div {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+  background: white;
+  height: 350px;
+}
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
+.modal-window form textarea {
+  padding: 5px;
+  margin-top: 10px;
+}
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+.modal-close:hover {
+  color: black;
+}
+
+/* Demo Styles */
+
+.modalrate {
+  display: grid;
+  margin-top: 20px;
+  color: white;
+}
+
+.modal-window > div {
+  border-radius: 1rem;
+}
+
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+.ratea {
+  width: 100%;
+  background-color: #ffd200;
+  border-radius: 100px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding: 8px 30px;
+  margin-top: -15px;
+}
+.modal-window form .save {
+  margin: auto;
+  width: 175px;
+}
+.modal-window form .save button {
+  padding: 5px 20px;
+  background-color: #ffbb00;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+/* rate */
+.ratein {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+  width: 180px;
+  margin-left: 80px;
+}
+.ratein:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.ratein:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.ratein:not(:checked) > label:before {
+  content: "★ ";
+}
+.ratein > input:checked ~ label {
+  color: #ffd200;
+}
+.ratein:not(:checked) > label:hover,
+.ratein:not(:checked) > label:hover ~ label {
+  color: #ffd200;
+}
+.ratein > input:checked + label:hover,
+.ratein > input:checked + label:hover ~ label,
+.ratein > input:checked ~ label:hover,
+.ratein > input:checked ~ label:hover ~ label,
+.ratein > label:hover ~ input:checked ~ label {
+  color: #ff9100;
+}
+/* bismilah ini filter yang diatas itu buat tour */
+.container-tour {
+  /* max-width: 1200px; */
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+}
+
+.filter-menu {
+  margin-bottom: 20px;
+}
+.filter-menu .list-menu {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #eb4d4b;
+  color: #fff;
+  cursor: pointer;
+}
+.filter-menu .list-menu:hover,
+.filter-menu .list-menu.current {
+  background: #ff7979;
+}
+
+.filter-item .list-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-item .list-item.active {
+  /* width: 50%;
+  padding: 2px; */
+  transition: all 0.5s ease;
+}
+
+.filter-item .list-item.delete {
+  /* width: 0%;
+  padding: 0; */
+  display: none;
+  transition: all 0.5s ease;
+}
+/* icon whatsapp mengambang */
+.floating {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.596);
+  z-index: 100;
+}
+
+.fab-icon {
+  margin-top: 16px;
+}
+/* .filter-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+} */
+
+@media screen and (min-width: 768px) {
+  .filter-item .list-item.active,
+  .filter-item .list-item {
+    width: 33.33%;
+  }
+
+  h2 {
+    font-size: 190%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .filter-item .list-item.active,
+  .filter-item .list-item {
+    width: 25%;
+  }
+}

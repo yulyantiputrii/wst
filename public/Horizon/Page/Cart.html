@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Assets/style/style.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <header style="height: 350px">
+      <div class="shadow" style="height: 350px">
+        <nav>
+          <div class="logo">
+            <a href="#"><img src="../Assets/img/logo.png" width="200px" alt="" /></a>
+          </div>
+
+          <ul>
+            <li>
+              <a href="#">Tour Package</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <a href="#"><div class="loginfront">Login</div></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="title-tour">
+          <h1>Cart</h1>
+        </div>
+      </div>
+    </header>
+    <div class="main-cart">
+      <div class="billing">
+        <h1>Billing Details</h1>
+        <form action="">
+          <div class="dua">
+            <div class="bil">
+              <label for="name" method="POST" class="">Name</label>
+              <input type="text" name="name" id="name" class="" required />
+            </div>
+            <div class="bil">
+              <label for="country" method="POST" class="">Country</label>
+              <input type="text" name="country" id="country" class="" required />
+            </div>
+          </div>
+          <div class="billi">
+            <label for="email" method="POST" class="">email</label>
+            <input type="text" name="email" id="email" class="" required />
+          </div>
+          <div class="dua">
+            <div class="bil">
+              <label for="phone" method="POST" class="">Phone Number</label>
+              <input type="text" name="phone" id="phone" class="" required />
+            </div>
+            <div class="bil">
+              <label for="age" method="POST" class="">Age</label>
+              <input type="text" name="age" id="age" class="" required />
+            </div>
+          </div>
+          <div class="dua">
+            <div class="bil">
+              <label for="bookingdate" method="POST" class="">Booking Date</label>
+              <input type="date" name="bookingdate" id="bookingdate" class="" required />
+            </div>
+            <div class="bil">
+              <label for="pickup" method="POST" class="">PickUp</label>
+              <input type="text" name="pickup" id="pickup" class="" required />
+            </div>
+          </div>
+          <center style="margin-top: 50px; margin-bottom: 100px">
+            <!-- PayPal Logo -->
+            <table border="0" cellpadding="10" cellspacing="0" align="center">
+              <tr>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <a
+                    href="https://www.paypal.com/id/webapps/mpp/paypal-popup?locale.x=id_ID"
+                    title="Cara Kerja PayPal"
+                    onclick="javascript:window.open('https://www.paypal.com/id/webapps/mpp/paypal-popup?locale.x=id_ID','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"
+                    ><img src="https://www.paypalobjects.com/webstatic/en_AU/i/buttons/btn_paywith_primary_l.png" alt="Bayar dengan PayPal"
+                  /></a>
+                </td>
+              </tr>
+            </table>
+            <!-- PayPal Logo -->
+          </center>
+        </form>
+      </div>
+      <div class="total-product">
+        <table>
+          <tr class="top">
+            <td>Product</td>
+            <td>Qty</td>
+            <td>Price</td>
+            <td>Total</td>
+          </tr>
+          <tr class="isi">
+            <td>Lorem A Tours</td>
+            <td>2 x Person</td>
+            <td>$54</td>
+            <td>$108</td>
+          </tr>
+          <tr class="bottom">
+            <td colspan="3">Total</td>
+            <td>$108</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <footer>© Horizon Tour and Travel 2022 | Designed by Retno Ekayanti</footer>
+  </body>
+</html>

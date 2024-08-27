@@ -1,0 +1,383 @@
+CRITICAL - 2022-12-14 15:21:50 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 186.
+ 1 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2022-12-14 08:23:52 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'horizon' in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'horizon', 3306, '', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Home.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Home.php(37): App\Controllers\Home->cekrole(NULL)
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\Acer\\D...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'horizon' in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Home.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Home.php(37): App\Controllers\Home->cekrole(NULL)
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\Acer\\D...')
+#10 {main}
+CRITICAL - 2022-12-14 08:23:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'horizon'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `auth_groups`.`name` as `role`
+FROM `auth_groups`
+JOIN `auth_groups_users` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`
+JOIN `users` ON `auth_groups_users`.`user_id` = `users`.`id`
+WHERE `users`.`id` IS NULL', [], false)
+ 3 APPPATH\Controllers\Home.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(37): App\Controllers\Home->cekrole(null)
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 08:25:13 --> mysqli_sql_exception: Table 'horizoncollaborative.users' doesn't exist in engine in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Home.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Home.php(37): App\Controllers\Home->cekrole(NULL)
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\Acer\\D...')
+#11 {main}
+CRITICAL - 2022-12-14 08:25:13 --> Table 'horizoncollaborative.users' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `auth_groups`.`name` as `role`
+FROM `auth_groups`
+JOIN `auth_groups_users` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`
+JOIN `users` ON `auth_groups_users`.`user_id` = `users`.`id`
+WHERE `users`.`id` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_groups`.`name` as `role`
+FROM `auth_groups`
+JOIN `auth_groups_users` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`
+JOIN `users` ON `auth_groups_users`.`user_id` = `users`.`id`
+WHERE `users`.`id` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_groups`.`name` as `role`
+FROM `auth_groups`
+JOIN `auth_groups_users` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`
+JOIN `users` ON `auth_groups_users`.`user_id` = `users`.`id`
+WHERE `users`.`id` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `auth_groups`.`name` as `role`
+FROM `auth_groups`
+JOIN `auth_groups_users` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`
+JOIN `users` ON `auth_groups_users`.`user_id` = `users`.`id`
+WHERE `users`.`id` IS NULL', [], false)
+ 5 APPPATH\Controllers\Home.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(37): App\Controllers\Home->cekrole(null)
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 08:28:57 --> mysqli_sql_exception: Table 'users' already exists in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(41): CodeIgniter\Database\Forge->createTable('users', true)
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(868): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}
+ERROR - 2022-12-14 08:32:35 --> mysqli_sql_exception: Table 'migrations' already exists in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `m...', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `m...')
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `m...')
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `m...')
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(806): CodeIgniter\Database\Forge->createTable('migrations', true)
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-12-14 08:33:12 --> mysqli_sql_exception: Table 'migrations' already exists in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `m...', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `m...')
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `m...')
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `m...')
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(806): CodeIgniter\Database\Forge->createTable('migrations', true)
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-12-14 08:35:58 --> mysqli_sql_exception: Table 'horizon.auth_groups' doesn't exist in engine in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `auth_gr...', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_gr...')
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_gr...')
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `auth_gr...', Array, false)
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Home.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Home.php(37): App\Controllers\Home->cekrole(NULL)
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\Acer\\D...')
+#11 {main}
+CRITICAL - 2022-12-14 08:35:58 --> Table 'horizon.auth_groups' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `auth_groups`.`name` as `role`
+FROM `auth_groups`
+JOIN `auth_groups_users` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`
+JOIN `users` ON `auth_groups_users`.`user_id` = `users`.`id`
+WHERE `users`.`id` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_groups`.`name` as `role`
+FROM `auth_groups`
+JOIN `auth_groups_users` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`
+JOIN `users` ON `auth_groups_users`.`user_id` = `users`.`id`
+WHERE `users`.`id` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_groups`.`name` as `role`
+FROM `auth_groups`
+JOIN `auth_groups_users` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`
+JOIN `users` ON `auth_groups_users`.`user_id` = `users`.`id`
+WHERE `users`.`id` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `auth_groups`.`name` as `role`
+FROM `auth_groups`
+JOIN `auth_groups_users` ON `auth_groups`.`id` = `auth_groups_users`.`group_id`
+JOIN `users` ON `auth_groups_users`.`user_id` = `users`.`id`
+WHERE `users`.`id` IS NULL', [], false)
+ 5 APPPATH\Controllers\Home.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(37): App\Controllers\Home->cekrole(null)
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 08:51:48 --> mysqli_sql_exception: Table 'migrations' already exists in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `m...', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `m...')
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `m...')
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `m...')
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(806): CodeIgniter\Database\Forge->createTable('migrations', true)
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-12-14 08:52:30 --> mysqli_sql_exception: Table 'migrations' already exists in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `m...', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `m...')
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `m...')
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `m...')
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(806): CodeIgniter\Database\Forge->createTable('migrations', true)
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(167): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(920): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#11 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(347): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\spark(98): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-12-14 09:06:48 --> mysqli_sql_exception: Table 'db_horizon.kategori' doesn't exist in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT produk.i...', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT produk.i...')
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk.i...')
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Models\M_Rating.php(28): CodeIgniter\Database\BaseConnection->query('SELECT produk.i...')
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Home.php(40): App\Models\M_Rating->hitungRating()
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\Acer\\D...')
+#10 {main}
+CRITICAL - 2022-12-14 09:06:48 --> Table 'db_horizon.kategori' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk DESC LIMIT 3 ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk DESC LIMIT 3 ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk DESC LIMIT 3 ')
+ 4 APPPATH\Models\M_Rating.php(28): CodeIgniter\Database\BaseConnection->query('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk DESC LIMIT 3 ')
+ 5 APPPATH\Controllers\Home.php(40): App\Models\M_Rating->hitungRating()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 09:12:01 --> mysqli_sql_exception: Unknown column 'rating.id' in 'field list' in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT produk.i...', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT produk.i...')
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk.i...')
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Models\M_Rating.php(28): CodeIgniter\Database\BaseConnection->query('SELECT produk.i...')
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Home.php(40): App\Models\M_Rating->hitungRating()
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\Acer\\D...')
+#10 {main}
+CRITICAL - 2022-12-14 09:12:01 --> Unknown column 'rating.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk DESC LIMIT 3 ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk DESC LIMIT 3 ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk DESC LIMIT 3 ')
+ 4 APPPATH\Models\M_Rating.php(28): CodeIgniter\Database\BaseConnection->query('SELECT produk.id_produk as idproduk, nama_produk, harga, deskripsi_produk, sampul , rating.id_produk as produk, SUM(rating.nilai_rating) as jumlah_rating, COUNT(rating.id) as jumlah_rater, SUM(rating.nilai_rating)/COUNT(rating.id) as rata_rating, nama_kategori FROM produk JOIN rating ON produk.id_produk = rating.id_produk JOIN kategori ON kategori.id_kategori = produk.id_kategori GROUP BY rating.id_produk DESC LIMIT 3 ')
+ 5 APPPATH\Controllers\Home.php(40): App\Models\M_Rating->hitungRating()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 09:15:24 --> mysqli_sql_exception: Table 'db_horizon.keranjang' doesn't exist in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_kera...', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_kera...')
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_kera...')
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_kera...', Array, false)
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Models\M_Keranjang.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Cart.php(29): App\Models\M_Keranjang->pesanan('4')
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Cart->index()
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\Acer\\D...')
+#11 {main}
+CRITICAL - 2022-12-14 09:15:24 --> Table 'db_horizon.keranjang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_keranjang`, `keranjang`.`id_produk` as `idproduk`, `keranjang`.`id` as `iduser`, `tanggal_tour`, `item`, `nama_produk`, `harga`, `sampul`
+FROM `keranjang`
+JOIN `produk` ON `produk`.`id_produk` = `keranjang`.`id_produk`
+JOIN `users` ON `users`.`id` = `keranjang`.`id`
+WHERE `users`.`id` = 4
+ORDER BY `id_keranjang` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_keranjang`, `keranjang`.`id_produk` as `idproduk`, `keranjang`.`id` as `iduser`, `tanggal_tour`, `item`, `nama_produk`, `harga`, `sampul`
+FROM `keranjang`
+JOIN `produk` ON `produk`.`id_produk` = `keranjang`.`id_produk`
+JOIN `users` ON `users`.`id` = `keranjang`.`id`
+WHERE `users`.`id` = 4
+ORDER BY `id_keranjang` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_keranjang`, `keranjang`.`id_produk` as `idproduk`, `keranjang`.`id` as `iduser`, `tanggal_tour`, `item`, `nama_produk`, `harga`, `sampul`
+FROM `keranjang`
+JOIN `produk` ON `produk`.`id_produk` = `keranjang`.`id_produk`
+JOIN `users` ON `users`.`id` = `keranjang`.`id`
+WHERE `users`.`id` = 4
+ORDER BY `id_keranjang` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_keranjang`, `keranjang`.`id_produk` as `idproduk`, `keranjang`.`id` as `iduser`, `tanggal_tour`, `item`, `nama_produk`, `harga`, `sampul`
+FROM `keranjang`
+JOIN `produk` ON `produk`.`id_produk` = `keranjang`.`id_produk`
+JOIN `users` ON `users`.`id` = `keranjang`.`id`
+WHERE `users`.`id` = 4
+ORDER BY `id_keranjang` DESC', [], false)
+ 5 APPPATH\Models\M_Keranjang.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(29): App\Models\M_Keranjang->pesanan('4')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-14 09:17:16 --> mysqli_sql_exception: Table 'db_horizon.transaksi' doesn't exist in C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tran...', 0)
+#1 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tran...')
+#2 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tran...')
+#3 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_tran...', Array, false)
+#4 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Models\M_Transaksi.php(72): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\app\Controllers\Cart.php(112): App\Models\M_Transaksi->detailtransaksi('4')
+#6 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Cart->history()
+#7 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#8 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Acer\Documents\GitHub\Horizon\Horizon_collaborative\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\Users\\Acer\\D...')
+#11 {main}
+CRITICAL - 2022-12-14 09:17:16 --> Table 'db_horizon.transaksi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `nama_produk`, `item`, `harga`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `id_rating`, `nilai_rating`, `komentar`, `transaksi`.`created_at` as `created`, `transaksi`.`updated_at` as `updated`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+JOIN `rating` ON `transaksi`.`id_produk` = `rating`.`id_produk`
+WHERE `rating`.`id` = 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `nama_produk`, `item`, `harga`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `id_rating`, `nilai_rating`, `komentar`, `transaksi`.`created_at` as `created`, `transaksi`.`updated_at` as `updated`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+JOIN `rating` ON `transaksi`.`id_produk` = `rating`.`id_produk`
+WHERE `rating`.`id` = 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `nama_produk`, `item`, `harga`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `id_rating`, `nilai_rating`, `komentar`, `transaksi`.`created_at` as `created`, `transaksi`.`updated_at` as `updated`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+JOIN `rating` ON `transaksi`.`id_produk` = `rating`.`id_produk`
+WHERE `rating`.`id` = 4')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_transaksi`, `transaksi`.`id_produk` as `idproduk`, `nama_produk`, `item`, `harga`, `total_biaya`, `tanggal_tour`, `jenis_transaksi`, `status_transaksi`, `bukti_transaksi`, `status_tour`, `id_rating`, `nilai_rating`, `komentar`, `transaksi`.`created_at` as `created`, `transaksi`.`updated_at` as `updated`
+FROM `transaksi`
+JOIN `produk` ON `produk`.`id_produk` = `transaksi`.`id_produk`
+JOIN `rating` ON `transaksi`.`id_produk` = `rating`.`id_produk`
+WHERE `rating`.`id` = 4', [], false)
+ 5 APPPATH\Models\M_Transaksi.php(72): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cart.php(112): App\Models\M_Transaksi->detailtransaksi('4')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->history()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 21:38:20 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\RoleFilter.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('tour', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-14 22:13:09 --> Undefined variable $tour
+in APPPATH\Views\user\Tour.php on line 31.
+ 1 APPPATH\Views\user\Tour.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tour', 'APPPATH\\Views\\user\\Tour.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\Tour.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Tour', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('user/Tour', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

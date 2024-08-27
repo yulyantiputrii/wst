@@ -1,0 +1,34 @@
+CRITICAL - 2022-11-07 06:54:23 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\user\Tour.php(8): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\Tour.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Tour', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('user/Tour', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 06:54:58 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\user\Tour.php(8): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user\\Tour.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Tour', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('user/Tour', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->tour()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-07 07:54:48 --> Invalid file: user/Cart.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/Cart.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('user/Cart', [], true)
+ 3 APPPATH\Controllers\Cart.php(13): view('user/Cart', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Cart->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

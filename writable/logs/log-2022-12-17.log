@@ -1,0 +1,16 @@
+CRITICAL - 2022-12-17 20:44:43 --> Undefined variable $awal
+in APPPATH\Views\home\formula-similiarity.php on line 31.
+ 1 APPPATH\Views\home\formula-similiarity.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $awal', 'APPPATH\\Views\\home\\formula-similiarity.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formula-similiarity.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formula-similiarity', [], true)
+ 5 APPPATH\Views\home\formula.php(34): view('home/formula-similiarity', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formula.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formula', [], true)
+ 9 APPPATH\Controllers\Home.php(153): view('home/formula', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formula()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
